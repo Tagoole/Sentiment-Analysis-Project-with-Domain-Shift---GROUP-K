@@ -37,11 +37,11 @@
 
 ## Project Overview
 
-This project investigates **cross-domain sentiment generalisation** — the ability of a model trained on one type of text (social media posts) to accurately classify sentiment in a different domain (emails, airline reviews, and locally collected text).
+This project investigates **cross-domain sentiment generalisation** by building a unified sentiment dataset from multiple raw sources and standardising all labels into three classes: `Positive`, `Neutral`, and `Negative`.
 
-We train ten different sentiment classification models on a merged, cleaned dataset of social media posts and airline tweets, then evaluate each model against a **custom-labelled test set** assembled by our group. This test set contains text that the models have never seen and that comes from a completely different context than the training data.
+The current repository state focuses on the full preprocessing and balancing pipeline in one notebook: `notebooks/data_cleaning.ipynb`. The cleaned dataset is split into training and validation sets (70/30, stratified by sentiment) and saved in `data/processed/`.
 
-The central question we are answering is not just *"which model is most accurate?"* but rather *"which model generalises best, and why?"*
+The central goal is to produce a high-quality, well-documented dataset that supports fair model comparison and reliable hyperparameter tuning.
 
 ---
 
@@ -64,20 +64,15 @@ Group-K-Machine-Learning/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── sentimentdataset.csv     ← Kaggle: Social Media Sentiment Dataset
-│   │   └── Tweets.csv               ← Kaggle: Twitter US Airline Sentiment
+│   │   ├── sentimentdataset.csv          ← Kaggle: Social Media Sentiment Dataset
+│   │   ├── Tweets.csv                    ← Kaggle: Twitter US Airline Sentiment
+│   │   └── twitterdataset.csv            ← Kaggle: Twitter Entity Sentiment Analysis
 │   └── processed/
-│       ├── cleaned_train.csv        ← Final merged + cleaned training data
-│       └── custom_test.csv          ← Group-labelled cross-domain test set
+│       ├── processed_training_dataset.csv   ← 70% stratified training split
+│       └── processed_validation_datset.csv  ← 30% stratified validation split
 │
 ├── notebooks/
-│   ├── 00_data_cleaning.ipynb       ← David: Full cleaning + EDA pipeline
-│   ├── 01_naive_bayes_textcnn.ipynb ← Larry: Naive Bayes + TextCNN
-│   ├── 02_logreg_lstm.ipynb         ← Ritah: Logistic Regression + LSTM
-│   ├── 03_svm_bilstm.ipynb          ← Ivy: SVM + Bidirectional LSTM
-│   ├── 04_randomforest_gru.ipynb    ← Julianah: Random Forest + GRU
-│   ├── 05_bert_distilbert.ipynb     ← David: BERT + DistilBERT
-│   └── 06_ensemble_comparison.ipynb ← All: Final ensemble + results
+│   └── data_cleaning.ipynb              ← Full cleaning, visualisation, balancing, and split pipeline
 │
 └── report/
     └── Group_K_Report.pdf           ← Final written report
@@ -89,12 +84,18 @@ Group-K-Machine-Learning/
 
 ### Training Data (merged)
 
-| Dataset | Source | Original Size | Labels |
-|---|---|---|---|
-| Social Media Sentiment | [Kaggle – kashishparmar02](https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset) | 732 rows | 279 raw emotion labels → mapped to 3 classes |
-| Twitter US Airline Sentiment | [Kaggle – Crowdflower](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | 14,640 rows | positive / negative / neutral |
+| Dataset | Source | Labels |
+|---|---|---|
+| Social Media Sentiment | [Kaggle – kashishparmar02](https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset) | Multiple emotions mapped to 3 classes |
+| Twitter US Airline Sentiment | [Kaggle – Crowdflower](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | positive / negative / neutral |
+| Twitter Entity Sentiment Analysis | [Kaggle – jp797498e](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) | positive / negative / neutral (+ other labels filtered during normalisation) |
 
-After cleaning, label normalisation, deduplication, and class balancing, the final training set contains approximately **15,000 rows** with three balanced classes: `Positive`, `Negative`, `Neutral`.
+After cleaning, label normalisation, deduplication, and balancing, the final combined dataset is split into:
+
+- `processed_training_dataset.csv` (70%)
+- `processed_validation_datset.csv` (30%)
+
+Both splits keep the same sentiment proportions via stratified sampling.
 
 ### Custom Test Set (group-labelled)
 
@@ -114,28 +115,22 @@ All samples were independently labelled by at least two group members. Disagreem
 ## Methodology
 
 ```
-Raw Data (2 datasets)
+Raw Data (3 datasets)
         ↓
-  Data Cleaning & EDA          [00_data_cleaning.ipynb]
-  • Drop irrelevant columns
-  • Normalise 279 labels → 3 classes
-  • Remove duplicates
-  • Balance classes
-  • Visualise distributions
+Data Cleaning & EDA             [notebooks/data_cleaning.ipynb]
+• Load 3 raw datasets
+• Standardise to text + sentiment schema
+• Handle missing/empty rows
+• Normalise sentiment labels to Positive/Neutral/Negative
+• Remove duplicates (within-source and cross-source)
+• Downsample Negative class by 5000 samples
+• Generate visualisations (before merge, after merge, balancing effect, text length, source contribution)
         ↓
-  cleaned_train.csv  ──────────────────────────────────┐
-        ↓                                               │
-  Individual Model Training                             │
-  (5 notebooks, 2 models each)                          │
-        ↓                                               │
-  Predictions saved as .npy files                       │
-  Results saved as .json files                          │
-        ↓                                               ↓
-  Final Ensemble Notebook       ←────────── custom_test.csv
-  • Load all 10 model predictions
-  • Weighted voting ensemble
-  • In-domain vs cross-domain comparison
-  • Performance gap analysis
+Combined balanced dataset
+        ↓
+Stratified split (70/30)
+        ↓
+processed_training_dataset.csv + processed_validation_datset.csv
 ```
 
 ---
@@ -207,7 +202,7 @@ The **performance gap** between in-domain and cross-domain F1 is our primary res
 
 | Name | Role | Algorithms |
 |---|---|---|
-| **David** | Data Lead + Modelling | BERT, DistilBERT |
+| **David** | Modelling | BERT, DistilBERT |
 | **Larry** | Modelling | Naive Bayes, TextCNN |
 | **Ritah** | Modelling | Logistic Regression, LSTM |
 | **Ivy** | Modelling | SVM, Bidirectional LSTM |
@@ -254,24 +249,22 @@ cd Group-K-Machine-Learning
 
 **Step 2 — Place raw data files**
 
-Download the two datasets from Kaggle and place them in `data/raw/`:
+Download the three datasets from Kaggle and place them in `data/raw/`:
 
 ```
 data/raw/sentimentdataset.csv
 data/raw/Tweets.csv
+data/raw/twitterdataset.csv
 ```
 
 **Step 3 — Run data cleaning first**
 
-Open and run `notebooks/00_data_cleaning.ipynb` completely before any other notebook. This produces `data/processed/cleaned_train.csv` which every other notebook depends on.
+Open and run `notebooks/data_cleaning.ipynb` from top to bottom. This produces:
 
-**Step 4 — Run individual model notebooks**
+- `data/processed/processed_training_dataset.csv`
+- `data/processed/processed_validation_datset.csv`
 
-Each member runs their own notebook independently. The notebooks are self-contained and only require `cleaned_train.csv` as input.
-
-**Step 5 — Run the final ensemble notebook**
-
-Once all five training notebooks have been run and predictions saved, open `notebooks/06_ensemble_comparison.ipynb` to see the full comparison table, ensemble results, and cross-domain analysis.
+These files are the final cleaned inputs for model training and hyperparameter validation.
 
 ---
 
