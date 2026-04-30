@@ -72,7 +72,7 @@ Group-K-Machine-Learning/
 │       └── processed_validation_datset.csv  ← 30% stratified validation split
 │
 ├── notebooks/
-│   └── data_cleaning.ipynb              ← Full cleaning, visualisation, balancing, and split pipeline
+│   └── 00_data_cleaning.ipynb              ← Full cleaning, visualisation, balancing, and split pipeline
 │
 └── report/
     └── Group_K_Report.pdf           ← Final written report
