@@ -1,0 +1,16 @@
+text,sentiment
+"Dear David, thank you for your interest in our Summer Internship program. Unfortunately, we have decided to move forward with other candidates at this time. We wish you the best in your career.",Negative
+"I am absolutely thrilled! I just received an A in my Machine Learning final project. All those late nights finally paid off!",Positive
+"The new cafeteria food is actually decent today. The pasta was surprisingly fresh and the service was quick for once.",Positive
+"My laptop screen just went black right in the middle of my coding session. I've only had it for three months and it's already failing. Extremely frustrated.",Negative
+"Just got the email that the internship workshop is happening next week. I'm really looking forward to networking with some industry professionals.",Positive
+"I've been waiting for three weeks for a response from the financial aid office. Every time I call, I get put on hold for an hour. This is unacceptable.",Negative
+"The library is so crowded during finals week that you can't even find a seat to study. It's so stressful and loud in there.",Negative
+"I just found out my paper was accepted for the student symposium! I can't wait to present my research to the faculty.",Positive
+"The group project is a total disaster. One member hasn't responded to any messages in a week and we have to submit the draft tomorrow.",Negative
+"I finally managed to fix that bug in my DistilBERT implementation! It feels so good to see the loss curves finally trending downwards.",Positive
+"The university's registration portal crashed exactly when my enrollment window opened. Now all the classes I wanted are full. This happens every single semester.",Negative
+"Had a great coffee chat with a senior dev from Google today. He gave me some really solid advice on my portfolio and career path.",Positive
+"The delivery guy just dropped my package in a puddle. The textbook I ordered for my stats class is completely ruined. What a waste of money.",Negative
+"Just finished my last exam of the semester! Time to relax and catch up on some sleep before the summer break starts.",Positive
+"The wifi in the dorms has been down for two days. How am I supposed to finish my online assignments? This is ridiculous.",Negative
