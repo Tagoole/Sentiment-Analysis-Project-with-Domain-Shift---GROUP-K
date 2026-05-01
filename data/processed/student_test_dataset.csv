@@ -1,16 +1,601 @@
 text,sentiment
-"Dear David, thank you for your interest in our Summer Internship program. Unfortunately, we have decided to move forward with other candidates at this time. We wish you the best in your career.",Negative
-"I am absolutely thrilled! I just received an A in my Machine Learning final project. All those late nights finally paid off!",Positive
-"The new cafeteria food is actually decent today. The pasta was surprisingly fresh and the service was quick for once.",Positive
-"My laptop screen just went black right in the middle of my coding session. I've only had it for three months and it's already failing. Extremely frustrated.",Negative
-"Just got the email that the internship workshop is happening next week. I'm really looking forward to networking with some industry professionals.",Positive
-"I've been waiting for three weeks for a response from the financial aid office. Every time I call, I get put on hold for an hour. This is unacceptable.",Negative
-"The library is so crowded during finals week that you can't even find a seat to study. It's so stressful and loud in there.",Negative
-"I just found out my paper was accepted for the student symposium! I can't wait to present my research to the faculty.",Positive
-"The group project is a total disaster. One member hasn't responded to any messages in a week and we have to submit the draft tomorrow.",Negative
-"I finally managed to fix that bug in my DistilBERT implementation! It feels so good to see the loss curves finally trending downwards.",Positive
-"The university's registration portal crashed exactly when my enrollment window opened. Now all the classes I wanted are full. This happens every single semester.",Negative
-"Had a great coffee chat with a senior dev from Google today. He gave me some really solid advice on my portfolio and career path.",Positive
-"The delivery guy just dropped my package in a puddle. The textbook I ordered for my stats class is completely ruined. What a waste of money.",Negative
-"Just finished my last exam of the semester! Time to relax and catch up on some sleep before the summer break starts.",Positive
-"The wifi in the dorms has been down for two days. How am I supposed to finish my online assignments? This is ridiculous.",Negative
+GitHub: Security alert - A new SSH key was added. Please consider the environment,Neutral
+Vultr: Monthly invoice is ready for review.,Neutral
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101' Please consider the environment,Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Vercel: Deployment to production failed. Check logs.,Negative
+Amazon: Your order has been delivered.,Positive
+Your Udemy password has been successfully reset.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Amazon: Your order has been delivered.,Positive
+Vultr: Monthly invoice is ready for review.,Neutral
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+LinkedIn: 5 people viewed your profile this week. Please consider the environment,Neutral
+Railway: Payment failed for the Developer Plan. Please consider the environment,Negative
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Railway: Deployment Successful for project 'my-api-v1',Positive
+Railway: Payment failed for the Developer Plan.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Netlify: Deployment of 'Portfolio-Site' failed. Please consider the environment,Negative
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Heroku: Billing alert - Your credit card was rejected.,Negative
+Vercel: Your deployment is now live.,Positive
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Amazon: Your order has been delivered.,Positive
+Vultr: Monthly invoice is ready for review.,Neutral
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+Vercel: Deployment to production failed. Check logs.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Your Udemy password has been successfully reset.,Positive
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Welcome to Heroku! Verify your account. Please consider the environment,Positive
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+You've won a $1000 prize! Claim your reward now!,Neutral
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Welcome to Heroku! Verify your account.,Positive
+Scholarship Committee: We regret to inform you that you were not selected. Please consider the environment,Negative
+LinkedIn: 5 people viewed your profile this week. Please consider the environment,Neutral
+Your Udemy password has been successfully reset.,Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+Railway: Deployment Successful for project 'my-api-v1' Please consider the environment,Positive
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+Your Udemy password has been successfully reset. Please consider the environment,Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+Railway: Payment failed for the Developer Plan.,Negative
+Vercel: Your deployment is now live.,Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Amazon: Your order has been delivered.,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Amazon: Your order has been delivered.,Positive
+Welcome to Heroku! Verify your account.,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Railway: Payment failed for the Developer Plan.,Negative
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. Please consider the environment,Negative
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'. Please consider the environment,Positive
+Vultr: Monthly invoice is ready for review.,Neutral
+Amazon: Your order has been delivered.,Positive
+CodeMagic: Build #402 successful for 'StudentApp'. Please consider the environment,Positive
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Vultr: Monthly invoice is ready for review.,Neutral
+Welcome to Heroku! Verify your account.,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Heroku | Sign-up failed - Verification email expired. Please consider the environment,Negative
+Alert: Your Mastercard ending in 4421 was declined for Udemy. Please consider the environment,Negative
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Vultr: Monthly invoice is ready for review. Please consider the environment,Neutral
+Railway: Payment failed for the Developer Plan.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Railway: Payment failed for the Developer Plan. Please consider the environment,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+Heroku | Sign-up failed - Verification email expired.,Negative
+Heroku: Billing alert - Your credit card was rejected.,Negative
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Vultr: Monthly invoice is ready for review.,Neutral
+Heroku: Billing alert - Your credit card was rejected.,Negative
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+"Paystack: Transaction successful - NGN 5,000 to Udemy. Please consider the environment",Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Welcome to Heroku! Verify your account.,Positive
+Welcome to Heroku! Verify your account.,Positive
+LinkedIn: 5 people viewed your profile this week.,Neutral
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+Amazon: Your order has been delivered.,Positive
+LinkedIn: 5 people viewed your profile this week.,Neutral
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Vercel: Deployment to production failed. Check logs. Please consider the environment,Negative
+Vercel: Deployment to production failed. Check logs.,Negative
+LinkedIn: 5 people viewed your profile this week.,Neutral
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Welcome to Heroku! Verify your account. Please consider the environment,Positive
+Vercel: Your deployment is now live.,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101' Please consider the environment,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+Alert: Your Mastercard ending in 4421 was declined for Udemy. Please consider the environment,Negative
+You've won a $1000 prize! Claim your reward now! Please consider the environment,Neutral
+Welcome to Heroku! Verify your account.,Positive
+Vultr: Monthly invoice is ready for review.,Neutral
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+Vultr: Monthly invoice is ready for review.,Neutral
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Amazon: Your order has been delivered. Please consider the environment,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Railway: Payment failed for the Developer Plan.,Negative
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+Vultr: Monthly invoice is ready for review.,Neutral
+Heroku: Billing alert - Your credit card was rejected.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+Railway: Payment failed for the Developer Plan.,Negative
+Vercel: Deployment to production failed. Check logs.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Heroku | Sign-up failed - Verification email expired.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+Railway: Deployment Successful for project 'my-api-v1' Please consider the environment,Positive
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Vultr: Monthly invoice is ready for review.,Neutral
+Vultr: Monthly invoice is ready for review.,Neutral
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Vercel: Your deployment is now live.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Heroku: Billing alert - Your credit card was rejected.,Negative
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Amazon: Your order has been delivered.,Positive
+Railway: Payment failed for the Developer Plan.,Negative
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Amazon: Your order has been delivered.,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+You've won a $1000 prize! Claim your reward now!,Neutral
+Vercel: Deployment to production failed. Check logs.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Welcome to Heroku! Verify your account.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+Vultr: Monthly invoice is ready for review.,Neutral
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Heroku | Sign-up failed - Verification email expired.,Negative
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+LinkedIn: 5 people viewed your profile this week.,Neutral
+GitHub: Security alert - A new SSH key was added.,Neutral
+Vultr: Monthly invoice is ready for review.,Neutral
+You've won a $1000 prize! Claim your reward now!,Neutral
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Vercel: Your deployment is now live.,Positive
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Heroku: Billing alert - Your credit card was rejected.,Negative
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+Railway: Deployment Successful for project 'my-api-v1',Positive
+GitHub: Build passed for repo 'Final-Project-K'. Please consider the environment,Positive
+Vercel: Your deployment is now live.,Positive
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+CodeMagic: Build #402 successful for 'StudentApp'. Please consider the environment,Positive
+Amazon: Your order has been delivered.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Heroku | Sign-up failed - Verification email expired.,Negative
+You've won a $1000 prize! Claim your reward now!,Neutral
+Vercel: Deployment to production failed. Check logs.,Negative
+Vercel: Your deployment is now live.,Positive
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Welcome to Heroku! Verify your account.,Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Your Udemy password has been successfully reset.,Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Vultr: Monthly invoice is ready for review.,Neutral
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Railway: Payment failed for the Developer Plan.,Negative
+GitHub: Security alert - A new SSH key was added.,Neutral
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. Please consider the environment,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Railway: Payment failed for the Developer Plan.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Welcome to Heroku! Verify your account.,Positive
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Heroku: Billing alert - Your credit card was rejected.,Negative
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+Your Udemy password has been successfully reset.,Positive
+Railway: Deployment Successful for project 'my-api-v1',Positive
+DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Amazon: Your order has been delivered.,Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Vultr: Monthly invoice is ready for review. Please consider the environment,Neutral
+GitHub: Security alert - A new SSH key was added. Please consider the environment,Neutral
+Amazon: Your order has been delivered. Please consider the environment,Positive
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+Netlify: Deployment of 'Portfolio-Site' failed.,Negative
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Amazon: Your order has been delivered. Please consider the environment,Positive
+Welcome to Heroku! Verify your account.,Positive
+Welcome to Heroku! Verify your account. Please consider the environment,Positive
+You've won a $1000 prize! Claim your reward now!,Neutral
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Amazon: Your order has been delivered.,Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
+You've won a $1000 prize! Claim your reward now!,Neutral
+You've won a $1000 prize! Claim your reward now!,Neutral
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Heroku | Sign-up failed - Verification email expired.,Negative
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Railway: Deployment Successful for project 'my-api-v1',Positive
+Heroku: Billing alert - Your credit card was rejected. Please consider the environment,Negative
+Vercel: Your deployment is now live. Please consider the environment,Positive
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria. Please consider the environment",Positive
+Vultr: Monthly invoice is ready for review. Please consider the environment,Neutral
+Railway: Deployment Successful for project 'my-api-v1',Positive
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+GitHub: Security alert - A new SSH key was added.,Neutral
+Railway: Deployment Successful for project 'my-api-v1',Positive
+Your Udemy password has been successfully reset.,Positive
+Heroku: Billing alert - Your credit card was rejected.,Negative
+Railway: Payment failed for the Developer Plan.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Vercel: Your deployment is now live.,Positive
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Amazon: Your order has been delivered.,Positive
+Heroku | Sign-up failed - Verification email expired.,Negative
+You've won a $1000 prize! Claim your reward now!,Neutral
+Heroku: Billing alert - Your credit card was rejected.,Negative
+LinkedIn: 5 people viewed your profile this week.,Neutral
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
+"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
+GitHub: Build passed for repo 'Final-Project-K'.,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
+Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
+CodeMagic: Build #403 failed on step 'unit-tests'. Please consider the environment,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Amazon: Your order has been delivered.,Positive
+Amazon: Your order has been delivered.,Positive
+"Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Heroku | Sign-up failed - Verification email expired.,Negative
+Vercel: Deployment to production failed. Check logs.,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Railway: Payment failed for the Developer Plan. Please consider the environment,Negative
+CodeMagic: Build #402 successful for 'StudentApp'.,Positive
+Vercel: Deployment to production failed. Check logs.,Negative
+Scholarship Committee: We regret to inform you that you were not selected.,Negative
+Railway: Deployment Successful for project 'my-api-v1',Positive
+SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
+The payment for the course went through!,Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+I'm breaking up with this internship. No pay.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+Final project build failed... only 2 hours left.,Negative
+The wifi in the hostel is down again. I hate this place.,Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+MTN: Your data balance is below 100MB.,Negative
+Final project build failed... only 2 hours left.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+I'm breaking up with this internship. No pay.,Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+Final project build failed... only 2 hours left.,Negative
+See you at the library at 5pm.,Neutral
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The wifi in the hostel is down again. I hate this place.,Negative
+Final project build failed... only 2 hours left.,Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+"I love you so much, thank you for being there.",Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+"Heroku is acting up again, sign in successful but no app.",Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+MTN: Your data balance is below 100MB.,Negative
+Final project build failed... only 2 hours left.,Negative
+Happy birthday! Have a great day ahead!,Positive
+"I love you so much, thank you for being there.",Positive
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+"Heroku is acting up again, sign in successful but no app.",Negative
+"I love you so much, thank you for being there.",Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+Final project build failed... only 2 hours left.,Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+Scholarship rejected. I'm honestly devastated.,Negative
+I'm breaking up with this internship. No pay.,Negative
+See you at the library at 5pm.,Neutral
+Final project build failed... only 2 hours left.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+Final project build failed... only 2 hours left.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+The payment for the course went through!,Positive
+"I love you so much, thank you for being there.",Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+Successfully deployed to Railway. Link: app.railway.app,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+Just got the internship offer from Google! I'm screaming!,Positive
+My bank app is not working and I need to pay for the course.,Negative
+Just got the internship offer from Google! I'm screaming!,Positive
+"I love you so much, thank you for being there.",Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+Final project build failed... only 2 hours left.,Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+The payment for the course went through!,Positive
+Happy birthday! Have a great day ahead!,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+The payment for the course went through!,Positive
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+The payment for the course went through!,Positive
+MTN: Your data balance is below 100MB.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+The deployment on Vercel failed again. I'm tired.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+I'm breaking up with this internship. No pay.,Negative
+Happy birthday! Have a great day ahead!,Positive
+"I love you so much, thank you for being there.",Positive
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+Hey! Did you see the lucky prize winner list?,Positive
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+See you at the library at 5pm.,Neutral
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The payment for the course went through!,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+See you at the library at 5pm.,Neutral
+Who is coming for the tech meetup tonight?,Neutral
+See you at the library at 5pm.,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+"Heroku is acting up again, sign in successful but no app.",Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+Hey! Did you see the lucky prize winner list?,Positive
+Who is coming for the tech meetup tonight?,Neutral
+The lecturer just canceled the 8am class! Praise God!,Positive
+Who is coming for the tech meetup tonight?,Neutral
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+Final project build failed... only 2 hours left.,Negative
+I'm breaking up with this internship. No pay.,Negative
+MTN: Your data balance is below 100MB.,Negative
+Successfully deployed to Railway. Link: app.railway.app,Positive
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+Final project build failed... only 2 hours left.,Negative
+The payment for the course went through!,Positive
+Just got the internship offer from Google! I'm screaming!,Positive
+The deployment on Vercel failed again. I'm tired.,Negative
+My bank app is not working and I need to pay for the course.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The wifi in the hostel is down again. I hate this place.,Negative
+Hey! Did you see the lucky prize winner list?,Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+See you at the library at 5pm.,Neutral
+"Heroku is acting up again, sign in successful but no app.",Negative
+I'm breaking up with this internship. No pay.,Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+"Heroku is acting up again, sign in successful but no app.",Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+"I love you so much, thank you for being there.",Positive
+Final project build failed... only 2 hours left.,Negative
+My bank app is not working and I need to pay for the course.,Negative
+Happy birthday! Have a great day ahead!,Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+MTN: Your data balance is below 100MB.,Negative
+The wifi in the hostel is down again. I hate this place.,Negative
+Final project build failed... only 2 hours left.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+My bank app is not working and I need to pay for the course.,Negative
+"I love you so much, thank you for being there.",Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+I'm breaking up with this internship. No pay.,Negative
+The payment for the course went through!,Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+Successfully deployed to Railway. Link: app.railway.app,Positive
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+The wifi in the hostel is down again. I hate this place.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+"I love you so much, thank you for being there.",Positive
+The deployment on Vercel failed again. I'm tired.,Negative
+Just got the internship offer from Google! I'm screaming!,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+MTN: Your data balance is below 100MB.,Negative
+MTN: Your data balance is below 100MB.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+Final project build failed... only 2 hours left.,Negative
+Scholarship rejected. I'm honestly devastated.,Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+Successfully deployed to Railway. Link: app.railway.app,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+Scholarship rejected. I'm honestly devastated.,Negative
+Scholarship rejected. I'm honestly devastated.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+See you at the library at 5pm.,Neutral
+Successfully deployed to Railway. Link: app.railway.app,Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+"Heroku is acting up again, sign in successful but no app.",Negative
+See you at the library at 5pm.,Neutral
+Just got the internship offer from Google! I'm screaming!,Positive
+The deployment on Vercel failed again. I'm tired.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+Happy birthday! Have a great day ahead!,Positive
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+Happy birthday! Have a great day ahead!,Positive
+MTN: Your data balance is below 100MB.,Negative
+See you at the library at 5pm.,Neutral
+My bank app is not working and I need to pay for the course.,Negative
+Happy birthday! Have a great day ahead!,Positive
+MTN: Your data balance is below 100MB.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+MTN: Your data balance is below 100MB.,Negative
+Hey! Did you see the lucky prize winner list?,Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+Scholarship rejected. I'm honestly devastated.,Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+MTN: Your data balance is below 100MB.,Negative
+Happy birthday! Have a great day ahead!,Positive
+Final project build failed... only 2 hours left.,Negative
+Just got the internship offer from Google! I'm screaming!,Positive
+The payment for the course went through!,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+Happy birthday! Have a great day ahead!,Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+"Railway is so much better, deployment was 100% successful.",Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+I think we should stop seeing each other... we are breaking up.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+I'm breaking up with this internship. No pay.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+See you at the library at 5pm.,Neutral
+Who is coming for the tech meetup tonight?,Neutral
+"Heroku is acting up again, sign in successful but no app.",Negative
+The wifi in the hostel is down again. I hate this place.,Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+The payment for the course went through!,Positive
+The payment for the course went through!,Positive
+I think we should stop seeing each other... we are breaking up.,Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+MTN: Your data balance is below 100MB.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+See you at the library at 5pm.,Neutral
+Successfully deployed to Railway. Link: app.railway.app,Positive
+"Bro, the card declined again at the mall. Embarrassing.",Negative
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+I'm breaking up with this internship. No pay.,Negative
+The payment for the course went through!,Positive
+The payment for the course went through!,Positive
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+"Railway is so much better, deployment was 100% successful.",Positive
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Successfully deployed to Railway. Link: app.railway.app,Positive
+Just got the internship offer from Google! I'm screaming!,Positive
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+See you at the library at 5pm.,Neutral
+See you at the library at 5pm.,Neutral
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+My bank app is not working and I need to pay for the course.,Negative
+See you at the library at 5pm.,Neutral
+My bank app is not working and I need to pay for the course.,Negative
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+I think we should stop seeing each other... we are breaking up.,Negative
+The deployment on Vercel failed again. I'm tired.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+Final project build failed... only 2 hours left.,Negative
+The lecturer just canceled the 8am class! Praise God!,Positive
+Heartbreak is real... she just sent the 'we need to talk' text.,Negative
+Who is coming for the tech meetup tonight?,Neutral
+The payment for the course went through!,Positive
+Happy birthday! Have a great day ahead!,Positive
+See you at the library at 5pm.,Neutral
+The lecturer just canceled the 8am class! Praise God!,Positive
+"Railway is so much better, deployment was 100% successful.",Positive
+The payment for the course went through!,Positive
+See you at the library at 5pm.,Neutral
+MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+The lecturer just canceled the 8am class! Praise God!,Positive
+Just got the internship offer from Google! I'm screaming!,Positive
+Scholarship rejected. I'm honestly devastated.,Negative
+CodeMagic is taking forever... 20 mins and still running.,Neutral
+Who is coming for the tech meetup tonight?,Neutral
+The lecturer just canceled the 8am class! Praise God!,Positive
+MTN: Your data balance is below 100MB.,Negative
+Yo! The build on CodeMagic finally passed! Let's go!,Positive
+Hey! Did you see the lucky prize winner list?,Positive
+The payment for the course went through!,Positive
