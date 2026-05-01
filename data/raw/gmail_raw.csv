@@ -1,0 +1,619 @@
+email_id,sender,subject,text,timestamp,priority,meta_data,sentiment
+MSG_0000,user_540@example.com,RE: GitHub: Security ale...,"@user GitHub: Security alert - A new SSH key was added. --- Forwarded message ---
+
+Please consider the environment",2026-05-16 08:00:00,Low,id=4133;host=gmail-srv-3,Neutral
+MSG_0001,user_451@example.com,RE: Vultr: Monthly invoi...,!!! Vultr: Monthly invoice is ready for review. <div>,2026-05-06 12:00:00,Low,id=6332;host=gmail-srv-3,Neutral
+MSG_0002,user_396@example.com,RE: Coursera: Financial ...,"<br> Coursera: Financial Aid for 'Machine Learning' Approved! ???
+
+Best regards, David",2026-05-28 22:00:00,High,id=2499;host=gmail-srv-4,Positive
+MSG_0003,user_419@example.com,RE: Udemy: Registration ...,"@user Udemy: Registration Successful! Welcome to 'Deep Learning 101' --- Forwarded message ---
+
+Please consider the environment",2026-05-05 04:00:00,Normal,id=2163;host=gmail-srv-1,Positive
+MSG_0004,user_463@example.com,RE: You've won a $1000 p...,??? You've won a $1000 prize! Claim your reward now! <br>,2026-05-22 22:00:00,Normal,id=8411;host=gmail-srv-4,Neutral
+MSG_0005,user_268@example.com,RE: CodeMagic: Build #40...,??? CodeMagic: Build #403 failed on step 'unit-tests'. --- Forwarded message ---,2026-05-19 03:00:00,High,id=5742;host=gmail-srv-3,Negative
+MSG_0006,user_435@example.com,RE: Vercel: Deployment t...,<br> Vercel: Deployment to production failed. Check logs. <br>,2026-05-28 13:00:00,Normal,id=1386;host=gmail-srv-1,Negative
+MSG_0007,user_565@example.com,RE: Amazon: Your order h...,--- Forwarded message --- Amazon: Your order has been delivered. <div>,2026-05-05 11:00:00,Low,id=7120;host=gmail-srv-4,Positive
+MSG_0008,user_138@example.com,RE: Your Udemy password ...,<br> Your Udemy password has been successfully reset. !!!,2026-05-03 16:00:00,High,id=8848;host=gmail-srv-2,Positive
+MSG_0009,user_770@example.com,RE: GitHub: Security ale...,"??? GitHub: Security alert - A new SSH key was added. <div>
+
+Sent from my iPhone",2026-05-21 11:00:00,High,id=2918;host=gmail-srv-5,Neutral
+MSG_0010,user_268@example.com,RE: Amazon: Your order h...,??? Amazon: Your order has been delivered. @user,2026-05-06 11:00:00,High,id=1565;host=gmail-srv-4,Positive
+MSG_0011,user_317@example.com,RE: Vultr: Monthly invoi...,"??? Vultr: Monthly invoice is ready for review. <br>
+
+Best regards, David",2026-05-25 05:00:00,High,id=2030;host=gmail-srv-1,Neutral
+MSG_0012,user_201@example.com,RE: Udemy: Registration ...,"<div> Udemy: Registration Successful! Welcome to 'Deep Learning 101' --- Forwarded message ---
+
+Sent from my mobile",2026-05-02 19:00:00,High,id=4150;host=gmail-srv-4,Positive
+MSG_0013,user_946@example.com,RE: LinkedIn: 5 people v...,"<div> LinkedIn: 5 people viewed your profile this week. --- Forwarded message ---
+
+Please consider the environment",2026-05-02 23:00:00,Normal,id=2844;host=gmail-srv-3,Neutral
+MSG_0014,user_848@example.com,RE: Railway: Payment fai...,"@user Railway: Payment failed for the Developer Plan. --- Forwarded message ---
+
+Please consider the environment",2026-05-04 06:00:00,High,id=3966;host=gmail-srv-3,Negative
+MSG_0015,user_637@example.com,RE: GitHub: Build passed...,--- Forwarded message --- GitHub: Build passed for repo 'Final-Project-K'. --- Forwarded message ---,2026-05-08 10:00:00,Normal,id=5774;host=gmail-srv-5,Positive
+MSG_0016,user_756@example.com,RE: Railway: Deployment ...,--- Forwarded message --- Railway: Deployment Successful for project 'my-api-v1' <div>,2026-05-10 00:00:00,Low,id=4092;host=gmail-srv-1,Positive
+MSG_0017,user_328@example.com,RE: Railway: Payment fai...,"<div> Railway: Payment failed for the Developer Plan. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-27 10:00:00,Normal,id=7693;host=gmail-srv-4,Negative
+MSG_0018,user_365@example.com,RE: Railway: Payment fai...,!!! Railway: Payment failed for the Developer Plan. <br>,2026-05-08 06:00:00,High,id=6246;host=gmail-srv-4,Negative
+MSG_0019,user_646@example.com,RE: Coursera: Financial ...,"@user Coursera: Financial Aid for 'Machine Learning' Approved! <br>
+
+Sent from my iPhone",2026-05-01 13:00:00,Normal,id=8416;host=gmail-srv-3,Positive
+MSG_0020,user_551@example.com,RE: Netlify: Deployment ...,"@user Netlify: Deployment of 'Portfolio-Site' failed. <div>
+
+Please consider the environment",2026-05-02 20:00:00,High,id=3188;host=gmail-srv-4,Negative
+MSG_0021,user_419@example.com,RE: CodeMagic: Build #40...,@user CodeMagic: Build #403 failed on step 'unit-tests'. !!!,2026-05-13 02:00:00,Low,id=3884;host=gmail-srv-4,Negative
+MSG_0022,user_809@example.com,RE: Heroku: Billing aler...,!!! Heroku: Billing alert - Your credit card was rejected. ???,2026-05-09 08:00:00,High,id=1545;host=gmail-srv-2,Negative
+MSG_0023,user_713@example.com,RE: Vercel: Your deploym...,"@user Vercel: Your deployment is now live. <div>
+
+Sent from my iPhone",2026-05-09 01:00:00,Normal,id=5327;host=gmail-srv-3,Positive
+MSG_0024,user_281@example.com,RE: GitHub: Build passed...,"??? GitHub: Build passed for repo 'Final-Project-K'. ???
+
+Sent from my mobile",2026-05-14 19:00:00,Low,id=4050;host=gmail-srv-4,Positive
+MSG_0025,user_463@example.com,RE: Vercel: Deployment t...,??? Vercel: Deployment to production failed. Check logs. !!!,2026-05-06 21:00:00,Low,id=7463;host=gmail-srv-4,Negative
+MSG_0026,user_861@example.com,RE: CodeMagic: Build #40...,<div> CodeMagic: Build #403 failed on step 'unit-tests'. --- Forwarded message ---,2026-05-25 05:00:00,Normal,id=4861;host=gmail-srv-4,Negative
+MSG_0027,user_670@example.com,RE: Amazon: Your order h...,"--- Forwarded message --- Amazon: Your order has been delivered. <div>
+
+Sent from my mobile",2026-05-15 12:00:00,High,id=4521;host=gmail-srv-4,Positive
+MSG_0028,user_128@example.com,RE: Vultr: Monthly invoi...,"??? Vultr: Monthly invoice is ready for review. --- Forwarded message ---
+
+Sent from my mobile",2026-05-12 14:00:00,Low,id=8300;host=gmail-srv-2,Neutral
+MSG_0029,user_932@example.com,RE: Netlify: Deployment ...,@user Netlify: Deployment of 'Portfolio-Site' failed. ???,2026-05-19 02:00:00,High,id=2900;host=gmail-srv-2,Negative
+MSG_0030,user_488@example.com,RE: Vercel: Deployment t...,!!! Vercel: Deployment to production failed. Check logs. !!!,2026-05-01 12:00:00,Low,id=4781;host=gmail-srv-2,Negative
+MSG_0031,user_634@example.com,RE: Udemy: Registration ...,"<div> Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>
+
+Best regards, David",2026-05-29 01:00:00,High,id=6265;host=gmail-srv-5,Positive
+MSG_0032,user_491@example.com,RE: Coursera: Financial ...,"??? Coursera: Financial Aid for 'Machine Learning' Approved! <div>
+
+Best regards, David",2026-05-17 15:00:00,Normal,id=7505;host=gmail-srv-1,Positive
+MSG_0033,user_967@example.com,RE: Your Udemy password ...,??? Your Udemy password has been successfully reset. ???,2026-05-30 16:00:00,Low,id=7236;host=gmail-srv-3,Positive
+MSG_0034,user_453@example.com,RE: CodeMagic: Build #40...,"<div> CodeMagic: Build #403 failed on step 'unit-tests'. <div>
+
+Sent from my mobile",2026-05-03 02:00:00,Low,id=2918;host=gmail-srv-5,Negative
+MSG_0035,user_472@example.com,RE: CodeMagic: Build #40...,"!!! CodeMagic: Build #402 successful for 'StudentApp'. <div>
+
+Sent from my mobile",2026-05-07 11:00:00,Normal,id=5458;host=gmail-srv-5,Positive
+MSG_0036,user_435@example.com,RE: Udemy: Registration ...,"!!! Udemy: Registration Successful! Welcome to 'Deep Learning 101' !!!
+
+Sent from my mobile",2026-05-24 15:00:00,High,id=2646;host=gmail-srv-2,Positive
+MSG_0037,user_589@example.com,RE: Welcome to Heroku! V...,"<br> Welcome to Heroku! Verify your account. @user
+
+Please consider the environment",2026-05-13 02:00:00,Normal,id=3960;host=gmail-srv-3,Positive
+MSG_0038,user_731@example.com,RE: CodeMagic: Build #40...,--- Forwarded message --- CodeMagic: Build #402 successful for 'StudentApp'. --- Forwarded message ---,2026-05-24 03:00:00,High,id=8850;host=gmail-srv-3,Positive
+MSG_0039,user_228@example.com,RE: Scholarship Committe...,--- Forwarded message --- Scholarship Committee: We regret to inform you that you were not selected. @user,2026-05-25 17:00:00,Low,id=6444;host=gmail-srv-3,Negative
+MSG_0040,user_141@example.com,RE: You've won a $1000 p...,"!!! You've won a $1000 prize! Claim your reward now! @user
+
+Sent from my mobile",2026-05-21 20:00:00,Low,id=3475;host=gmail-srv-3,Neutral
+MSG_0041,user_377@example.com,RE: SERVICE TERMINATION ...,"<br> SERVICE TERMINATION NOTICE: Your account has been suspended. !!!
+
+Best regards, David",2026-05-25 21:00:00,Low,id=9069;host=gmail-srv-2,Negative
+MSG_0042,user_525@example.com,RE: Welcome to Heroku! V...,"--- Forwarded message --- Welcome to Heroku! Verify your account. <br>
+
+Sent from my mobile",2026-05-20 02:00:00,Low,id=5974;host=gmail-srv-1,Positive
+MSG_0043,user_765@example.com,RE: Scholarship Committe...,"--- Forwarded message --- Scholarship Committee: We regret to inform you that you were not selected. @user
+
+Please consider the environment",2026-05-28 20:00:00,Low,id=6367;host=gmail-srv-3,Negative
+MSG_0044,user_109@example.com,RE: LinkedIn: 5 people v...,"<div> LinkedIn: 5 people viewed your profile this week. <br>
+
+Please consider the environment",2026-05-27 18:00:00,Low,id=7359;host=gmail-srv-3,Neutral
+MSG_0045,user_194@example.com,RE: Your Udemy password ...,??? Your Udemy password has been successfully reset. --- Forwarded message ---,2026-05-12 00:00:00,High,id=9182;host=gmail-srv-4,Positive
+MSG_0046,user_266@example.com,RE: You've won a $1000 p...,"<div> You've won a $1000 prize! Claim your reward now! !!!
+
+Sent from my mobile",2026-05-06 14:00:00,Low,id=9335;host=gmail-srv-4,Neutral
+MSG_0047,user_453@example.com,RE: Railway: Deployment ...,"--- Forwarded message --- Railway: Deployment Successful for project 'my-api-v1' <br>
+
+Please consider the environment",2026-05-14 17:00:00,Low,id=3652;host=gmail-srv-2,Positive
+MSG_0048,user_395@example.com,RE: GitHub: Build passed...,??? GitHub: Build passed for repo 'Final-Project-K'. @user,2026-05-06 13:00:00,Low,id=2698;host=gmail-srv-5,Positive
+MSG_0049,user_111@example.com,RE: Heroku: Sign-in succ...,"<br> Heroku: Sign-in successful from Lagos, Nigeria. ???",2026-05-26 05:00:00,Normal,id=9988;host=gmail-srv-5,Positive
+MSG_0050,user_118@example.com,RE: Your Udemy password ...,"<div> Your Udemy password has been successfully reset. --- Forwarded message ---
+
+Please consider the environment",2026-05-09 05:00:00,Normal,id=1912;host=gmail-srv-2,Positive
+MSG_0051,user_357@example.com,RE: You've won a $1000 p...,<br> You've won a $1000 prize! Claim your reward now! --- Forwarded message ---,2026-05-16 21:00:00,High,id=2992;host=gmail-srv-3,Neutral
+MSG_0052,user_728@example.com,RE: Railway: Payment fai...,"--- Forwarded message --- Railway: Payment failed for the Developer Plan. <br>
+
+Sent from my mobile",2026-05-26 06:00:00,Normal,id=7527;host=gmail-srv-5,Negative
+MSG_0053,user_272@example.com,RE: Vercel: Your deploym...,"<br> Vercel: Your deployment is now live. @user
+
+Sent from my mobile",2026-05-01 11:00:00,Normal,id=1940;host=gmail-srv-5,Positive
+MSG_0054,user_375@example.com,RE: Paystack: Transactio...,"??? Paystack: Transaction successful - NGN 5,000 to Udemy. --- Forwarded message ---
+
+Sent from my mobile",2026-05-09 04:00:00,High,id=1460;host=gmail-srv-5,Positive
+MSG_0055,user_350@example.com,RE: Paystack: Transactio...,"@user Paystack: Transaction successful - NGN 5,000 to Udemy. <div>",2026-05-15 11:00:00,High,id=3839;host=gmail-srv-2,Positive
+MSG_0056,user_736@example.com,RE: CodeMagic: Build #40...,--- Forwarded message --- CodeMagic: Build #402 successful for 'StudentApp'. <br>,2026-05-12 04:00:00,Low,id=2084;host=gmail-srv-1,Positive
+MSG_0057,user_627@example.com,RE: Amazon: Your order h...,--- Forwarded message --- Amazon: Your order has been delivered. <div>,2026-05-27 19:00:00,Low,id=8918;host=gmail-srv-5,Positive
+MSG_0058,user_824@example.com,RE: Coursera: Financial ...,"--- Forwarded message --- Coursera: Financial Aid for 'Machine Learning' Approved! @user
+
+Sent from my iPhone",2026-05-26 00:00:00,Normal,id=9103;host=gmail-srv-5,Positive
+MSG_0059,user_455@example.com,RE: Amazon: Your order h...,<br> Amazon: Your order has been delivered. <br>,2026-05-21 09:00:00,Normal,id=8825;host=gmail-srv-4,Positive
+MSG_0060,user_471@example.com,RE: Welcome to Heroku! V...,"@user Welcome to Heroku! Verify your account. --- Forwarded message ---
+
+Best regards, David",2026-05-26 00:00:00,High,id=6854;host=gmail-srv-5,Positive
+MSG_0061,user_877@example.com,RE: Coursera: Financial ...,"??? Coursera: Financial Aid for 'Machine Learning' Approved! <div>
+
+Sent from my mobile",2026-05-21 12:00:00,Low,id=1959;host=gmail-srv-2,Positive
+MSG_0062,user_234@example.com,RE: Railway: Payment fai...,<div> Railway: Payment failed for the Developer Plan. @user,2026-05-21 12:00:00,Normal,id=9563;host=gmail-srv-1,Negative
+MSG_0063,user_524@example.com,RE: DigitalOcean: Your d...,"<br> DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. --- Forwarded message ---
+
+Please consider the environment",2026-05-02 11:00:00,Normal,id=9979;host=gmail-srv-4,Negative
+MSG_0064,user_945@example.com,RE: DigitalOcean: Your d...,"<br> DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. <div>
+
+Sent from my mobile",2026-05-08 14:00:00,Normal,id=9006;host=gmail-srv-3,Negative
+MSG_0065,user_410@example.com,RE: CodeMagic: Build #40...,"!!! CodeMagic: Build #402 successful for 'StudentApp'. @user
+
+Please consider the environment",2026-05-07 14:00:00,Normal,id=2447;host=gmail-srv-4,Positive
+MSG_0066,user_573@example.com,RE: Vultr: Monthly invoi...,<br> Vultr: Monthly invoice is ready for review. @user,2026-05-03 19:00:00,Low,id=9110;host=gmail-srv-3,Neutral
+MSG_0067,user_753@example.com,RE: Amazon: Your order h...,<br> Amazon: Your order has been delivered. !!!,2026-05-26 02:00:00,High,id=7525;host=gmail-srv-1,Positive
+MSG_0068,user_289@example.com,RE: CodeMagic: Build #40...,"!!! CodeMagic: Build #402 successful for 'StudentApp'. --- Forwarded message ---
+
+Please consider the environment",2026-05-10 21:00:00,Normal,id=8842;host=gmail-srv-2,Positive
+MSG_0069,user_166@example.com,RE: DigitalOcean: Your d...,<br> DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. @user,2026-05-18 18:00:00,Normal,id=7561;host=gmail-srv-4,Negative
+MSG_0070,user_813@example.com,RE: Vultr: Monthly invoi...,<br> Vultr: Monthly invoice is ready for review. @user,2026-05-18 17:00:00,Normal,id=2186;host=gmail-srv-4,Neutral
+MSG_0071,user_656@example.com,RE: Welcome to Heroku! V...,<br> Welcome to Heroku! Verify your account. --- Forwarded message ---,2026-05-16 01:00:00,Normal,id=8445;host=gmail-srv-4,Positive
+MSG_0072,user_101@example.com,RE: Coursera: Financial ...,--- Forwarded message --- Coursera: Financial Aid for 'Machine Learning' Approved! @user,2026-05-04 12:00:00,High,id=4197;host=gmail-srv-4,Positive
+MSG_0073,user_415@example.com,RE: Paystack: Transactio...,"@user Paystack: Transaction successful - NGN 5,000 to Udemy. --- Forwarded message ---
+
+Sent from my mobile",2026-05-21 20:00:00,Low,id=6608;host=gmail-srv-1,Positive
+MSG_0074,user_949@example.com,RE: Alert: Your Masterca...,"<div> Alert: Your Mastercard ending in 4421 was declined for Udemy. --- Forwarded message ---
+
+Sent from my mobile",2026-05-15 06:00:00,Low,id=7596;host=gmail-srv-1,Negative
+MSG_0075,user_450@example.com,RE: Udemy: Registration ...,<div> Udemy: Registration Successful! Welcome to 'Deep Learning 101' ???,2026-05-09 01:00:00,Normal,id=9402;host=gmail-srv-3,Positive
+MSG_0076,user_148@example.com,RE: Heroku | Sign-up fai...,"--- Forwarded message --- Heroku | Sign-up failed - Verification email expired. --- Forwarded message ---
+
+Please consider the environment",2026-05-30 02:00:00,High,id=5225;host=gmail-srv-5,Negative
+MSG_0077,user_255@example.com,RE: Alert: Your Masterca...,"--- Forwarded message --- Alert: Your Mastercard ending in 4421 was declined for Udemy. ???
+
+Please consider the environment",2026-05-23 05:00:00,High,id=4039;host=gmail-srv-2,Negative
+MSG_0078,user_483@example.com,RE: Alert: Your Masterca...,"--- Forwarded message --- Alert: Your Mastercard ending in 4421 was declined for Udemy. !!!
+
+Sent from my iPhone",2026-05-26 15:00:00,Normal,id=6912;host=gmail-srv-3,Negative
+MSG_0079,user_744@example.com,RE: Udemy: Registration ...,??? Udemy: Registration Successful! Welcome to 'Deep Learning 101' ???,2026-05-13 01:00:00,High,id=3602;host=gmail-srv-5,Positive
+MSG_0080,user_276@example.com,RE: Vultr: Monthly invoi...,"<div> Vultr: Monthly invoice is ready for review. ???
+
+Please consider the environment",2026-05-09 15:00:00,Low,id=1024;host=gmail-srv-3,Neutral
+MSG_0081,user_935@example.com,RE: Railway: Payment fai...,--- Forwarded message --- Railway: Payment failed for the Developer Plan. !!!,2026-05-23 14:00:00,Low,id=4200;host=gmail-srv-5,Negative
+MSG_0082,user_661@example.com,RE: Udemy: Registration ...,<br> Udemy: Registration Successful! Welcome to 'Deep Learning 101' ???,2026-05-10 05:00:00,Low,id=2972;host=gmail-srv-5,Positive
+MSG_0083,user_223@example.com,RE: DigitalOcean: Your d...,??? DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. ???,2026-05-07 10:00:00,High,id=2512;host=gmail-srv-3,Negative
+MSG_0084,user_940@example.com,RE: Railway: Payment fai...,"@user Railway: Payment failed for the Developer Plan. !!!
+
+Please consider the environment",2026-05-10 14:00:00,Low,id=7335;host=gmail-srv-2,Negative
+MSG_0085,user_856@example.com,RE: Railway: Payment fai...,<br> Railway: Payment failed for the Developer Plan. --- Forwarded message ---,2026-05-09 09:00:00,Low,id=8763;host=gmail-srv-4,Negative
+MSG_0086,user_439@example.com,RE: Railway: Payment fai...,<br> Railway: Payment failed for the Developer Plan. <br>,2026-05-23 11:00:00,High,id=8747;host=gmail-srv-5,Negative
+MSG_0087,user_464@example.com,RE: Heroku | Sign-up fai...,"<br> Heroku | Sign-up failed - Verification email expired. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-30 06:00:00,Normal,id=5909;host=gmail-srv-5,Negative
+MSG_0088,user_517@example.com,RE: Heroku: Billing aler...,"<br> Heroku: Billing alert - Your credit card was rejected. !!!
+
+Sent from my mobile",2026-05-07 21:00:00,Normal,id=6737;host=gmail-srv-1,Negative
+MSG_0089,user_564@example.com,RE: SERVICE TERMINATION ...,"!!! SERVICE TERMINATION NOTICE: Your account has been suspended. <br>
+
+Sent from my mobile",2026-05-12 16:00:00,Normal,id=3880;host=gmail-srv-3,Negative
+MSG_0090,user_559@example.com,RE: Vultr: Monthly invoi...,"??? Vultr: Monthly invoice is ready for review. <br>
+
+Sent from my iPhone",2026-05-23 23:00:00,High,id=1036;host=gmail-srv-3,Neutral
+MSG_0091,user_607@example.com,RE: Heroku: Billing aler...,"??? Heroku: Billing alert - Your credit card was rejected. ???
+
+Sent from my iPhone",2026-05-09 13:00:00,High,id=4860;host=gmail-srv-3,Negative
+MSG_0092,user_219@example.com,RE: Netlify: Deployment ...,"<br> Netlify: Deployment of 'Portfolio-Site' failed. @user
+
+Sent from my mobile",2026-05-22 04:00:00,High,id=7777;host=gmail-srv-2,Negative
+MSG_0093,user_960@example.com,RE: Paystack: Transactio...,"<div> Paystack: Transaction successful - NGN 5,000 to Udemy. @user
+
+Please consider the environment",2026-05-21 21:00:00,Low,id=5451;host=gmail-srv-5,Positive
+MSG_0094,user_850@example.com,RE: Paystack: Transactio...,"!!! Paystack: Transaction successful - NGN 5,000 to Udemy. !!!
+
+Sent from my iPhone",2026-05-06 12:00:00,Normal,id=1830;host=gmail-srv-2,Positive
+MSG_0095,user_593@example.com,RE: Welcome to Heroku! V...,<div> Welcome to Heroku! Verify your account. ???,2026-05-01 12:00:00,Low,id=7390;host=gmail-srv-4,Positive
+MSG_0096,user_169@example.com,RE: Welcome to Heroku! V...,--- Forwarded message --- Welcome to Heroku! Verify your account. <div>,2026-05-26 19:00:00,High,id=5748;host=gmail-srv-3,Positive
+MSG_0097,user_513@example.com,RE: LinkedIn: 5 people v...,"!!! LinkedIn: 5 people viewed your profile this week. ???
+
+Sent from my mobile",2026-05-25 15:00:00,Normal,id=9842;host=gmail-srv-4,Neutral
+MSG_0098,user_889@example.com,RE: GitHub: Build passed...,@user GitHub: Build passed for repo 'Final-Project-K'. <div>,2026-05-22 08:00:00,Normal,id=9782;host=gmail-srv-2,Positive
+MSG_0099,user_204@example.com,RE: Netlify: Deployment ...,"??? Netlify: Deployment of 'Portfolio-Site' failed. !!!
+
+Sent from my iPhone",2026-05-24 08:00:00,Normal,id=9286;host=gmail-srv-1,Negative
+MSG_0100,user_451@example.com,RE: Heroku: Sign-in succ...,"--- Forwarded message --- Heroku: Sign-in successful from Lagos, Nigeria. ???",2026-05-20 12:00:00,Low,id=9282;host=gmail-srv-2,Positive
+MSG_0101,user_283@example.com,RE: Amazon: Your order h...,"!!! Amazon: Your order has been delivered. !!!
+
+Sent from my iPhone",2026-05-09 05:00:00,High,id=4620;host=gmail-srv-1,Positive
+MSG_0102,user_486@example.com,RE: LinkedIn: 5 people v...,"!!! LinkedIn: 5 people viewed your profile this week. @user
+
+Sent from my iPhone",2026-05-29 07:00:00,Normal,id=2815;host=gmail-srv-5,Neutral
+MSG_0103,user_988@example.com,RE: Paystack: Transactio...,"@user Paystack: Transaction successful - NGN 5,000 to Udemy. <div>
+
+Sent from my mobile",2026-05-09 13:00:00,High,id=6821;host=gmail-srv-2,Positive
+MSG_0104,user_900@example.com,RE: DigitalOcean: Your d...,"??? DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-20 19:00:00,Normal,id=2007;host=gmail-srv-3,Negative
+MSG_0105,user_905@example.com,RE: Vercel: Deployment t...,"??? Vercel: Deployment to production failed. Check logs. !!!
+
+Please consider the environment",2026-05-27 16:00:00,Low,id=2094;host=gmail-srv-2,Negative
+MSG_0106,user_686@example.com,RE: Vercel: Deployment t...,"??? Vercel: Deployment to production failed. Check logs. --- Forwarded message ---
+
+Sent from my mobile",2026-05-19 23:00:00,High,id=4752;host=gmail-srv-3,Negative
+MSG_0107,user_419@example.com,RE: LinkedIn: 5 people v...,"<br> LinkedIn: 5 people viewed your profile this week. <div>
+
+Best regards, David",2026-05-09 07:00:00,High,id=6794;host=gmail-srv-1,Neutral
+MSG_0108,user_443@example.com,RE: SERVICE TERMINATION ...,<br> SERVICE TERMINATION NOTICE: Your account has been suspended. !!!,2026-05-21 07:00:00,Low,id=1106;host=gmail-srv-2,Negative
+MSG_0109,user_374@example.com,RE: Udemy: Registration ...,!!! Udemy: Registration Successful! Welcome to 'Deep Learning 101' @user,2026-05-03 10:00:00,High,id=1665;host=gmail-srv-5,Positive
+MSG_0110,user_942@example.com,RE: Coursera: Financial ...,--- Forwarded message --- Coursera: Financial Aid for 'Machine Learning' Approved! ???,2026-05-25 00:00:00,High,id=1202;host=gmail-srv-1,Positive
+MSG_0111,user_574@example.com,RE: Udemy: Registration ...,<br> Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>,2026-05-24 08:00:00,Low,id=6161;host=gmail-srv-1,Positive
+MSG_0112,user_457@example.com,RE: Welcome to Heroku! V...,"@user Welcome to Heroku! Verify your account. ???
+
+Please consider the environment",2026-05-12 23:00:00,High,id=3042;host=gmail-srv-4,Positive
+MSG_0113,user_947@example.com,RE: Vercel: Your deploym...,@user Vercel: Your deployment is now live. @user,2026-05-23 11:00:00,High,id=2997;host=gmail-srv-5,Positive
+MSG_0114,user_142@example.com,RE: Udemy: Registration ...,"@user Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>
+
+Please consider the environment",2026-05-16 01:00:00,Low,id=2281;host=gmail-srv-1,Positive
+MSG_0115,user_629@example.com,RE: Vercel: Deployment t...,??? Vercel: Deployment to production failed. Check logs. <div>,2026-05-15 05:00:00,Low,id=9293;host=gmail-srv-2,Negative
+MSG_0116,user_118@example.com,RE: Netlify: Deployment ...,"!!! Netlify: Deployment of 'Portfolio-Site' failed. !!!
+
+Sent from my iPhone",2026-05-22 23:00:00,High,id=1498;host=gmail-srv-5,Negative
+MSG_0117,user_833@example.com,RE: Railway: Payment fai...,@user Railway: Payment failed for the Developer Plan. <br>,2026-05-17 06:00:00,Normal,id=9214;host=gmail-srv-3,Negative
+MSG_0118,user_470@example.com,RE: Alert: Your Masterca...,"!!! Alert: Your Mastercard ending in 4421 was declined for Udemy. @user
+
+Please consider the environment",2026-05-10 22:00:00,Normal,id=7796;host=gmail-srv-4,Negative
+MSG_0119,user_551@example.com,RE: You've won a $1000 p...,"<div> You've won a $1000 prize! Claim your reward now! !!!
+
+Please consider the environment",2026-05-07 08:00:00,High,id=5093;host=gmail-srv-5,Neutral
+MSG_0120,user_952@example.com,RE: Welcome to Heroku! V...,<br> Welcome to Heroku! Verify your account. @user,2026-05-13 11:00:00,High,id=5142;host=gmail-srv-4,Positive
+MSG_0121,user_737@example.com,RE: Vultr: Monthly invoi...,"<br> Vultr: Monthly invoice is ready for review. <div>
+
+Sent from my mobile",2026-05-24 23:00:00,Low,id=8007;host=gmail-srv-2,Neutral
+MSG_0122,user_180@example.com,RE: Alert: Your Masterca...,"<div> Alert: Your Mastercard ending in 4421 was declined for Udemy. <br>
+
+Best regards, David",2026-05-18 00:00:00,Low,id=7571;host=gmail-srv-3,Negative
+MSG_0123,user_314@example.com,RE: Vultr: Monthly invoi...,--- Forwarded message --- Vultr: Monthly invoice is ready for review. @user,2026-05-20 08:00:00,High,id=6600;host=gmail-srv-3,Neutral
+MSG_0124,user_103@example.com,RE: Scholarship Committe...,??? Scholarship Committee: We regret to inform you that you were not selected. ???,2026-05-02 21:00:00,Low,id=8794;host=gmail-srv-4,Negative
+MSG_0125,user_920@example.com,RE: Railway: Payment fai...,??? Railway: Payment failed for the Developer Plan. <div>,2026-05-16 10:00:00,High,id=7991;host=gmail-srv-2,Negative
+MSG_0126,user_516@example.com,RE: Paystack: Transactio...,"@user Paystack: Transaction successful - NGN 5,000 to Udemy. --- Forwarded message ---
+
+Sent from my mobile",2026-05-28 08:00:00,High,id=6309;host=gmail-srv-1,Positive
+MSG_0127,user_258@example.com,RE: Amazon: Your order h...,"<br> Amazon: Your order has been delivered. <div>
+
+Please consider the environment",2026-05-21 05:00:00,Low,id=3641;host=gmail-srv-2,Positive
+MSG_0128,user_447@example.com,RE: Coursera: Financial ...,"--- Forwarded message --- Coursera: Financial Aid for 'Machine Learning' Approved! --- Forwarded message ---
+
+Sent from my iPhone",2026-05-27 02:00:00,Normal,id=8453;host=gmail-srv-4,Positive
+MSG_0129,user_862@example.com,RE: Udemy: Registration ...,"--- Forwarded message --- Udemy: Registration Successful! Welcome to 'Deep Learning 101' --- Forwarded message ---
+
+Best regards, David",2026-05-01 01:00:00,Low,id=9913;host=gmail-srv-1,Positive
+MSG_0130,user_920@example.com,RE: Railway: Payment fai...,"--- Forwarded message --- Railway: Payment failed for the Developer Plan. ???
+
+Best regards, David",2026-05-21 01:00:00,Low,id=5285;host=gmail-srv-4,Negative
+MSG_0131,user_767@example.com,RE: Netlify: Deployment ...,<br> Netlify: Deployment of 'Portfolio-Site' failed. --- Forwarded message ---,2026-05-26 13:00:00,Normal,id=2160;host=gmail-srv-1,Negative
+MSG_0132,user_803@example.com,RE: Vultr: Monthly invoi...,@user Vultr: Monthly invoice is ready for review. !!!,2026-05-29 12:00:00,Low,id=6114;host=gmail-srv-1,Neutral
+MSG_0133,user_139@example.com,RE: Heroku: Billing aler...,??? Heroku: Billing alert - Your credit card was rejected. <div>,2026-05-01 07:00:00,Low,id=7729;host=gmail-srv-4,Negative
+MSG_0134,user_461@example.com,RE: Heroku: Sign-in succ...,"!!! Heroku: Sign-in successful from Lagos, Nigeria. ???
+
+Sent from my iPhone",2026-05-09 18:00:00,High,id=2238;host=gmail-srv-1,Positive
+MSG_0135,user_548@example.com,RE: Railway: Payment fai...,"!!! Railway: Payment failed for the Developer Plan. <br>
+
+Sent from my iPhone",2026-05-01 21:00:00,Low,id=3951;host=gmail-srv-5,Negative
+MSG_0136,user_338@example.com,RE: Vercel: Deployment t...,@user Vercel: Deployment to production failed. Check logs. <br>,2026-05-18 11:00:00,High,id=7899;host=gmail-srv-3,Negative
+MSG_0137,user_698@example.com,RE: CodeMagic: Build #40...,"<div> CodeMagic: Build #402 successful for 'StudentApp'. --- Forwarded message ---
+
+Sent from my mobile",2026-05-29 23:00:00,Normal,id=1798;host=gmail-srv-3,Positive
+MSG_0138,user_580@example.com,RE: Heroku | Sign-up fai...,--- Forwarded message --- Heroku | Sign-up failed - Verification email expired. <div>,2026-05-28 15:00:00,High,id=7826;host=gmail-srv-3,Negative
+MSG_0139,user_724@example.com,RE: Heroku: Sign-in succ...,"!!! Heroku: Sign-in successful from Lagos, Nigeria. ???",2026-05-03 05:00:00,High,id=8018;host=gmail-srv-4,Positive
+MSG_0140,user_694@example.com,RE: SERVICE TERMINATION ...,"--- Forwarded message --- SERVICE TERMINATION NOTICE: Your account has been suspended. !!!
+
+Sent from my mobile",2026-05-26 20:00:00,Low,id=7402;host=gmail-srv-3,Negative
+MSG_0141,user_987@example.com,RE: Udemy: Registration ...,"<div> Udemy: Registration Successful! Welcome to 'Deep Learning 101' --- Forwarded message ---
+
+Best regards, David",2026-05-13 19:00:00,Low,id=8326;host=gmail-srv-4,Positive
+MSG_0142,user_660@example.com,RE: Udemy: Registration ...,??? Udemy: Registration Successful! Welcome to 'Deep Learning 101' !!!,2026-05-17 03:00:00,High,id=2698;host=gmail-srv-2,Positive
+MSG_0143,user_541@example.com,RE: You've won a $1000 p...,"<br> You've won a $1000 prize! Claim your reward now! --- Forwarded message ---
+
+Sent from my iPhone",2026-05-06 05:00:00,High,id=4986;host=gmail-srv-5,Neutral
+MSG_0144,user_709@example.com,RE: Railway: Deployment ...,"!!! Railway: Deployment Successful for project 'my-api-v1' --- Forwarded message ---
+
+Please consider the environment",2026-05-24 01:00:00,Normal,id=2492;host=gmail-srv-2,Positive
+MSG_0145,user_748@example.com,RE: CodeMagic: Build #40...,"<div> CodeMagic: Build #402 successful for 'StudentApp'. !!!
+
+Sent from my iPhone",2026-05-08 21:00:00,High,id=2740;host=gmail-srv-3,Positive
+MSG_0146,user_427@example.com,RE: Netlify: Deployment ...,--- Forwarded message --- Netlify: Deployment of 'Portfolio-Site' failed. --- Forwarded message ---,2026-05-04 11:00:00,Low,id=9839;host=gmail-srv-5,Negative
+MSG_0147,user_518@example.com,RE: Heroku: Sign-in succ...,"??? Heroku: Sign-in successful from Lagos, Nigeria. <br>
+
+Sent from my iPhone",2026-05-17 03:00:00,High,id=7316;host=gmail-srv-3,Positive
+MSG_0148,user_831@example.com,RE: Vercel: Deployment t...,"??? Vercel: Deployment to production failed. Check logs. ???
+
+Sent from my mobile",2026-05-22 15:00:00,Normal,id=9101;host=gmail-srv-5,Negative
+MSG_0149,user_253@example.com,RE: Scholarship Committe...,<div> Scholarship Committee: We regret to inform you that you were not selected. ???,2026-05-15 13:00:00,High,id=1770;host=gmail-srv-1,Negative
+MSG_0150,user_506@example.com,RE: Vultr: Monthly invoi...,@user Vultr: Monthly invoice is ready for review. --- Forwarded message ---,2026-05-03 14:00:00,Normal,id=8780;host=gmail-srv-3,Neutral
+MSG_0151,user_202@example.com,RE: Vultr: Monthly invoi...,"??? Vultr: Monthly invoice is ready for review. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-23 11:00:00,Low,id=8146;host=gmail-srv-2,Neutral
+MSG_0152,user_567@example.com,RE: CodeMagic: Build #40...,@user CodeMagic: Build #403 failed on step 'unit-tests'. @user,2026-05-22 04:00:00,High,id=1084;host=gmail-srv-1,Negative
+MSG_0153,user_153@example.com,RE: Vercel: Your deploym...,@user Vercel: Your deployment is now live. !!!,2026-05-07 17:00:00,High,id=2343;host=gmail-srv-5,Positive
+MSG_0154,user_757@example.com,RE: GitHub: Security ale...,<br> GitHub: Security alert - A new SSH key was added. !!!,2026-05-09 13:00:00,High,id=7107;host=gmail-srv-5,Neutral
+MSG_0155,user_430@example.com,RE: Heroku: Billing aler...,!!! Heroku: Billing alert - Your credit card was rejected. <br>,2026-05-25 16:00:00,High,id=5772;host=gmail-srv-4,Negative
+MSG_0156,user_143@example.com,RE: DigitalOcean: Your d...,!!! DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. @user,2026-05-10 08:00:00,Normal,id=6558;host=gmail-srv-4,Negative
+MSG_0157,user_105@example.com,RE: Netlify: Deployment ...,??? Netlify: Deployment of 'Portfolio-Site' failed. ???,2026-05-24 23:00:00,Low,id=8943;host=gmail-srv-3,Negative
+MSG_0158,user_771@example.com,RE: SERVICE TERMINATION ...,"@user SERVICE TERMINATION NOTICE: Your account has been suspended. !!!
+
+Sent from my iPhone",2026-05-09 13:00:00,High,id=3945;host=gmail-srv-5,Negative
+MSG_0159,user_596@example.com,RE: Amazon: Your order h...,"??? Amazon: Your order has been delivered. !!!
+
+Sent from my mobile",2026-05-25 15:00:00,High,id=5465;host=gmail-srv-1,Positive
+MSG_0160,user_266@example.com,RE: Railway: Payment fai...,??? Railway: Payment failed for the Developer Plan. --- Forwarded message ---,2026-05-27 14:00:00,High,id=3384;host=gmail-srv-5,Negative
+MSG_0161,user_670@example.com,RE: DigitalOcean: Your d...,--- Forwarded message --- DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. <br>,2026-05-15 05:00:00,Normal,id=2819;host=gmail-srv-5,Negative
+MSG_0162,user_360@example.com,RE: Amazon: Your order h...,<br> Amazon: Your order has been delivered. @user,2026-05-07 11:00:00,Low,id=3745;host=gmail-srv-5,Positive
+MSG_0163,user_929@example.com,RE: Vercel: Deployment t...,<div> Vercel: Deployment to production failed. Check logs. <div>,2026-05-26 08:00:00,High,id=5108;host=gmail-srv-5,Negative
+MSG_0164,user_328@example.com,RE: You've won a $1000 p...,"@user You've won a $1000 prize! Claim your reward now! <br>
+
+Sent from my mobile",2026-05-02 19:00:00,Normal,id=4470;host=gmail-srv-4,Neutral
+MSG_0165,user_586@example.com,RE: Vercel: Deployment t...,"<div> Vercel: Deployment to production failed. Check logs. <div>
+
+Sent from my iPhone",2026-05-05 00:00:00,Normal,id=9056;host=gmail-srv-2,Negative
+MSG_0166,user_459@example.com,RE: Udemy: Registration ...,??? Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>,2026-05-06 19:00:00,High,id=1017;host=gmail-srv-1,Positive
+MSG_0167,user_477@example.com,RE: Welcome to Heroku! V...,"--- Forwarded message --- Welcome to Heroku! Verify your account. ???
+
+Sent from my mobile",2026-05-29 05:00:00,Low,id=7114;host=gmail-srv-3,Positive
+MSG_0168,user_781@example.com,RE: GitHub: Security ale...,"--- Forwarded message --- GitHub: Security alert - A new SSH key was added. !!!
+
+Sent from my iPhone",2026-05-28 22:00:00,Normal,id=7677;host=gmail-srv-4,Neutral
+MSG_0169,user_793@example.com,RE: SERVICE TERMINATION ...,!!! SERVICE TERMINATION NOTICE: Your account has been suspended. @user,2026-05-21 23:00:00,High,id=4895;host=gmail-srv-2,Negative
+MSG_0170,user_974@example.com,RE: Scholarship Committe...,<div> Scholarship Committee: We regret to inform you that you were not selected. @user,2026-05-13 07:00:00,Low,id=1695;host=gmail-srv-3,Negative
+MSG_0171,user_565@example.com,RE: Heroku: Sign-in succ...,"<br> Heroku: Sign-in successful from Lagos, Nigeria. ???",2026-05-11 15:00:00,High,id=1964;host=gmail-srv-5,Positive
+MSG_0172,user_336@example.com,RE: You've won a $1000 p...,"??? You've won a $1000 prize! Claim your reward now! --- Forwarded message ---
+
+Sent from my mobile",2026-05-29 23:00:00,Normal,id=2382;host=gmail-srv-3,Neutral
+MSG_0173,user_565@example.com,RE: Vultr: Monthly invoi...,!!! Vultr: Monthly invoice is ready for review. !!!,2026-05-26 16:00:00,High,id=6634;host=gmail-srv-5,Neutral
+MSG_0174,user_534@example.com,RE: Scholarship Committe...,<br> Scholarship Committee: We regret to inform you that you were not selected. <div>,2026-05-05 04:00:00,High,id=5548;host=gmail-srv-5,Negative
+MSG_0175,user_909@example.com,RE: Heroku | Sign-up fai...,@user Heroku | Sign-up failed - Verification email expired. !!!,2026-05-21 04:00:00,Low,id=7439;host=gmail-srv-1,Negative
+MSG_0176,user_373@example.com,RE: Coursera: Financial ...,"<div> Coursera: Financial Aid for 'Machine Learning' Approved! !!!
+
+Sent from my mobile",2026-05-21 08:00:00,High,id=9356;host=gmail-srv-5,Positive
+MSG_0177,user_506@example.com,RE: LinkedIn: 5 people v...,"@user LinkedIn: 5 people viewed your profile this week. !!!
+
+Best regards, David",2026-05-26 22:00:00,Low,id=4898;host=gmail-srv-3,Neutral
+MSG_0178,user_604@example.com,RE: GitHub: Security ale...,"--- Forwarded message --- GitHub: Security alert - A new SSH key was added. <br>
+
+Sent from my mobile",2026-05-12 18:00:00,Normal,id=6138;host=gmail-srv-5,Neutral
+MSG_0179,user_793@example.com,RE: Vultr: Monthly invoi...,"<br> Vultr: Monthly invoice is ready for review. <div>
+
+Sent from my iPhone",2026-05-15 17:00:00,Normal,id=1887;host=gmail-srv-2,Neutral
+MSG_0180,user_673@example.com,RE: You've won a $1000 p...,<br> You've won a $1000 prize! Claim your reward now! <br>,2026-05-22 06:00:00,Normal,id=6754;host=gmail-srv-4,Neutral
+MSG_0181,user_766@example.com,RE: Netlify: Deployment ...,"??? Netlify: Deployment of 'Portfolio-Site' failed. <div>
+
+Sent from my iPhone",2026-05-29 06:00:00,Normal,id=9305;host=gmail-srv-3,Negative
+MSG_0182,user_815@example.com,RE: Alert: Your Masterca...,"--- Forwarded message --- Alert: Your Mastercard ending in 4421 was declined for Udemy. ???
+
+Sent from my mobile",2026-05-24 09:00:00,Low,id=1434;host=gmail-srv-1,Negative
+MSG_0183,user_988@example.com,RE: SERVICE TERMINATION ...,@user SERVICE TERMINATION NOTICE: Your account has been suspended. !!!,2026-05-24 07:00:00,High,id=1214;host=gmail-srv-3,Negative
+MSG_0184,user_611@example.com,RE: Paystack: Transactio...,"<br> Paystack: Transaction successful - NGN 5,000 to Udemy. <div>
+
+Best regards, David",2026-05-06 02:00:00,Normal,id=2365;host=gmail-srv-3,Positive
+MSG_0185,user_804@example.com,RE: Vercel: Your deploym...,--- Forwarded message --- Vercel: Your deployment is now live. <div>,2026-05-13 07:00:00,Low,id=4556;host=gmail-srv-3,Positive
+MSG_0186,user_916@example.com,RE: Scholarship Committe...,@user Scholarship Committee: We regret to inform you that you were not selected. <br>,2026-05-27 01:00:00,High,id=5587;host=gmail-srv-4,Negative
+MSG_0187,user_729@example.com,RE: Heroku: Billing aler...,"??? Heroku: Billing alert - Your credit card was rejected. @user
+
+Best regards, David",2026-05-03 17:00:00,Low,id=1416;host=gmail-srv-4,Negative
+MSG_0188,user_506@example.com,RE: Alert: Your Masterca...,@user Alert: Your Mastercard ending in 4421 was declined for Udemy. ???,2026-05-15 10:00:00,High,id=9673;host=gmail-srv-5,Negative
+MSG_0189,user_872@example.com,RE: Railway: Deployment ...,!!! Railway: Deployment Successful for project 'my-api-v1' <br>,2026-05-29 04:00:00,High,id=2639;host=gmail-srv-4,Positive
+MSG_0190,user_665@example.com,RE: GitHub: Build passed...,"<div> GitHub: Build passed for repo 'Final-Project-K'. !!!
+
+Please consider the environment",2026-05-13 14:00:00,High,id=3868;host=gmail-srv-1,Positive
+MSG_0191,user_651@example.com,RE: Vercel: Your deploym...,"??? Vercel: Your deployment is now live. @user
+
+Best regards, David",2026-05-05 12:00:00,High,id=8415;host=gmail-srv-4,Positive
+MSG_0192,user_657@example.com,RE: CodeMagic: Build #40...,<br> CodeMagic: Build #403 failed on step 'unit-tests'. !!!,2026-05-05 15:00:00,Normal,id=7232;host=gmail-srv-1,Negative
+MSG_0193,user_161@example.com,RE: Paystack: Transactio...,"<div> Paystack: Transaction successful - NGN 5,000 to Udemy. --- Forwarded message ---",2026-05-10 20:00:00,Normal,id=1106;host=gmail-srv-5,Positive
+MSG_0194,user_947@example.com,RE: CodeMagic: Build #40...,"--- Forwarded message --- CodeMagic: Build #402 successful for 'StudentApp'. <br>
+
+Please consider the environment",2026-05-15 17:00:00,Low,id=5841;host=gmail-srv-5,Positive
+MSG_0195,user_548@example.com,RE: Amazon: Your order h...,??? Amazon: Your order has been delivered. --- Forwarded message ---,2026-05-20 18:00:00,High,id=3877;host=gmail-srv-5,Positive
+MSG_0196,user_189@example.com,RE: GitHub: Security ale...,"??? GitHub: Security alert - A new SSH key was added. ???
+
+Sent from my iPhone",2026-05-29 19:00:00,Low,id=2451;host=gmail-srv-1,Neutral
+MSG_0197,user_689@example.com,RE: Heroku | Sign-up fai...,<div> Heroku | Sign-up failed - Verification email expired. ???,2026-05-24 20:00:00,Low,id=6044;host=gmail-srv-5,Negative
+MSG_0198,user_705@example.com,RE: You've won a $1000 p...,"!!! You've won a $1000 prize! Claim your reward now! <div>
+
+Best regards, David",2026-05-20 00:00:00,Normal,id=9365;host=gmail-srv-2,Neutral
+MSG_0199,user_506@example.com,RE: Vercel: Deployment t...,<br> Vercel: Deployment to production failed. Check logs. <div>,2026-05-20 03:00:00,Normal,id=2561;host=gmail-srv-3,Negative
+MSG_0200,user_860@example.com,RE: Vercel: Your deploym...,@user Vercel: Your deployment is now live. <div>,2026-05-03 14:00:00,High,id=5900;host=gmail-srv-5,Positive
+MSG_0201,user_317@example.com,RE: CodeMagic: Build #40...,??? CodeMagic: Build #402 successful for 'StudentApp'. !!!,2026-05-29 20:00:00,High,id=5153;host=gmail-srv-1,Positive
+MSG_0202,user_343@example.com,RE: GitHub: Security ale...,"??? GitHub: Security alert - A new SSH key was added. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-21 03:00:00,Low,id=4684;host=gmail-srv-5,Neutral
+MSG_0203,user_170@example.com,RE: Welcome to Heroku! V...,<div> Welcome to Heroku! Verify your account. <br>,2026-05-29 07:00:00,Normal,id=5131;host=gmail-srv-5,Positive
+MSG_0204,user_245@example.com,RE: Paystack: Transactio...,"<div> Paystack: Transaction successful - NGN 5,000 to Udemy. <div>",2026-05-15 09:00:00,Low,id=6559;host=gmail-srv-1,Positive
+MSG_0205,user_397@example.com,RE: Your Udemy password ...,<div> Your Udemy password has been successfully reset. ???,2026-05-11 02:00:00,Low,id=2391;host=gmail-srv-5,Positive
+MSG_0206,user_573@example.com,RE: Udemy: Registration ...,"<br> Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>
+
+Best regards, David",2026-05-13 16:00:00,Low,id=5424;host=gmail-srv-4,Positive
+MSG_0207,user_565@example.com,RE: Vultr: Monthly invoi...,<div> Vultr: Monthly invoice is ready for review. @user,2026-05-04 23:00:00,Low,id=5645;host=gmail-srv-5,Neutral
+MSG_0208,user_595@example.com,RE: Udemy: Registration ...,--- Forwarded message --- Udemy: Registration Successful! Welcome to 'Deep Learning 101' <br>,2026-05-10 18:00:00,High,id=4464;host=gmail-srv-5,Positive
+MSG_0209,user_340@example.com,RE: Railway: Payment fai...,@user Railway: Payment failed for the Developer Plan. <br>,2026-05-29 07:00:00,High,id=5769;host=gmail-srv-5,Negative
+MSG_0210,user_513@example.com,RE: GitHub: Security ale...,--- Forwarded message --- GitHub: Security alert - A new SSH key was added. @user,2026-05-19 23:00:00,Normal,id=4881;host=gmail-srv-5,Neutral
+MSG_0211,user_487@example.com,RE: Alert: Your Masterca...,"<div> Alert: Your Mastercard ending in 4421 was declined for Udemy. <br>
+
+Sent from my mobile",2026-05-09 04:00:00,Normal,id=1660;host=gmail-srv-2,Negative
+MSG_0212,user_421@example.com,RE: DigitalOcean: Your d...,"@user DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. ???
+
+Please consider the environment",2026-05-21 05:00:00,Normal,id=6191;host=gmail-srv-4,Negative
+MSG_0213,user_697@example.com,RE: CodeMagic: Build #40...,"<div> CodeMagic: Build #402 successful for 'StudentApp'. <div>
+
+Best regards, David",2026-05-07 11:00:00,High,id=1109;host=gmail-srv-5,Positive
+MSG_0214,user_765@example.com,RE: GitHub: Security ale...,"!!! GitHub: Security alert - A new SSH key was added. --- Forwarded message ---
+
+Sent from my mobile",2026-05-13 11:00:00,Normal,id=7041;host=gmail-srv-5,Neutral
+MSG_0215,user_740@example.com,RE: Railway: Payment fai...,"@user Railway: Payment failed for the Developer Plan. ???
+
+Sent from my mobile",2026-05-14 21:00:00,Low,id=9000;host=gmail-srv-1,Negative
+MSG_0216,user_495@example.com,RE: CodeMagic: Build #40...,"<div> CodeMagic: Build #402 successful for 'StudentApp'. !!!
+
+Best regards, David",2026-05-30 13:00:00,Normal,id=7414;host=gmail-srv-1,Positive
+MSG_0217,user_256@example.com,RE: Welcome to Heroku! V...,<div> Welcome to Heroku! Verify your account. --- Forwarded message ---,2026-05-20 22:00:00,Normal,id=7121;host=gmail-srv-2,Positive
+MSG_0218,user_934@example.com,RE: CodeMagic: Build #40...,"!!! CodeMagic: Build #403 failed on step 'unit-tests'. <div>
+
+Best regards, David",2026-05-05 13:00:00,Normal,id=2288;host=gmail-srv-3,Negative
+MSG_0219,user_183@example.com,RE: Heroku: Billing aler...,<br> Heroku: Billing alert - Your credit card was rejected. <div>,2026-05-08 08:00:00,Low,id=5844;host=gmail-srv-2,Negative
+MSG_0220,user_705@example.com,RE: Paystack: Transactio...,"!!! Paystack: Transaction successful - NGN 5,000 to Udemy. --- Forwarded message ---
+
+Best regards, David",2026-05-16 01:00:00,Normal,id=3423;host=gmail-srv-3,Positive
+MSG_0221,user_104@example.com,RE: Heroku: Sign-in succ...,"<div> Heroku: Sign-in successful from Lagos, Nigeria. <div>
+
+Sent from my mobile",2026-05-18 11:00:00,Low,id=9689;host=gmail-srv-2,Positive
+MSG_0222,user_676@example.com,RE: CodeMagic: Build #40...,"@user CodeMagic: Build #403 failed on step 'unit-tests'. !!!
+
+Sent from my iPhone",2026-05-20 06:00:00,Low,id=3783;host=gmail-srv-4,Negative
+MSG_0223,user_782@example.com,RE: Your Udemy password ...,"@user Your Udemy password has been successfully reset. <div>
+
+Sent from my mobile",2026-05-13 16:00:00,Normal,id=7704;host=gmail-srv-1,Positive
+MSG_0224,user_301@example.com,RE: Railway: Deployment ...,"??? Railway: Deployment Successful for project 'my-api-v1' <div>
+
+Sent from my iPhone",2026-05-13 01:00:00,High,id=3468;host=gmail-srv-5,Positive
+MSG_0225,user_391@example.com,RE: DigitalOcean: Your d...,"--- Forwarded message --- DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. <br>
+
+Sent from my iPhone",2026-05-10 15:00:00,High,id=2535;host=gmail-srv-5,Negative
+MSG_0226,user_640@example.com,RE: Coursera: Financial ...,@user Coursera: Financial Aid for 'Machine Learning' Approved! !!!,2026-05-22 02:00:00,High,id=5450;host=gmail-srv-1,Positive
+MSG_0227,user_211@example.com,RE: Coursera: Financial ...,<div> Coursera: Financial Aid for 'Machine Learning' Approved! <div>,2026-05-05 11:00:00,High,id=7396;host=gmail-srv-3,Positive
+MSG_0228,user_392@example.com,RE: Paystack: Transactio...,"<br> Paystack: Transaction successful - NGN 5,000 to Udemy. <br>
+
+Sent from my mobile",2026-05-24 07:00:00,High,id=3697;host=gmail-srv-5,Positive
+MSG_0229,user_652@example.com,RE: Amazon: Your order h...,"--- Forwarded message --- Amazon: Your order has been delivered. @user
+
+Sent from my mobile",2026-05-16 16:00:00,Normal,id=9361;host=gmail-srv-1,Positive
+MSG_0230,user_103@example.com,RE: Coursera: Financial ...,!!! Coursera: Financial Aid for 'Machine Learning' Approved! <div>,2026-05-10 04:00:00,Normal,id=1656;host=gmail-srv-2,Positive
+MSG_0231,user_507@example.com,RE: SERVICE TERMINATION ...,"!!! SERVICE TERMINATION NOTICE: Your account has been suspended. --- Forwarded message ---
+
+Sent from my mobile",2026-05-11 01:00:00,High,id=3038;host=gmail-srv-2,Negative
+MSG_0232,user_826@example.com,RE: SERVICE TERMINATION ...,??? SERVICE TERMINATION NOTICE: Your account has been suspended. ???,2026-05-24 04:00:00,Normal,id=4047;host=gmail-srv-4,Negative
+MSG_0233,user_977@example.com,RE: Vultr: Monthly invoi...,"!!! Vultr: Monthly invoice is ready for review. <div>
+
+Please consider the environment",2026-05-20 23:00:00,Normal,id=9906;host=gmail-srv-4,Neutral
+MSG_0234,user_711@example.com,RE: GitHub: Security ale...,"!!! GitHub: Security alert - A new SSH key was added. <div>
+
+Please consider the environment",2026-05-04 08:00:00,Normal,id=1095;host=gmail-srv-5,Neutral
+MSG_0235,user_848@example.com,RE: Amazon: Your order h...,"!!! Amazon: Your order has been delivered. !!!
+
+Please consider the environment",2026-05-09 13:00:00,Normal,id=3962;host=gmail-srv-4,Positive
+MSG_0236,user_466@example.com,RE: GitHub: Build passed...,"<div> GitHub: Build passed for repo 'Final-Project-K'. --- Forwarded message ---
+
+Sent from my mobile",2026-05-18 07:00:00,Low,id=1992;host=gmail-srv-5,Positive
+MSG_0237,user_911@example.com,RE: Alert: Your Masterca...,"--- Forwarded message --- Alert: Your Mastercard ending in 4421 was declined for Udemy. @user
+
+Sent from my iPhone",2026-05-12 00:00:00,Normal,id=7960;host=gmail-srv-3,Negative
+MSG_0238,user_848@example.com,RE: Netlify: Deployment ...,--- Forwarded message --- Netlify: Deployment of 'Portfolio-Site' failed. ???,2026-05-12 07:00:00,High,id=5984;host=gmail-srv-2,Negative
+MSG_0239,user_653@example.com,RE: SERVICE TERMINATION ...,<br> SERVICE TERMINATION NOTICE: Your account has been suspended. !!!,2026-05-28 04:00:00,Normal,id=5797;host=gmail-srv-4,Negative
+MSG_0240,user_318@example.com,RE: Amazon: Your order h...,"--- Forwarded message --- Amazon: Your order has been delivered. <div>
+
+Please consider the environment",2026-05-16 14:00:00,High,id=2649;host=gmail-srv-1,Positive
+MSG_0241,user_230@example.com,RE: Welcome to Heroku! V...,--- Forwarded message --- Welcome to Heroku! Verify your account. <div>,2026-05-29 23:00:00,Normal,id=2978;host=gmail-srv-2,Positive
+MSG_0242,user_493@example.com,RE: Welcome to Heroku! V...,"--- Forwarded message --- Welcome to Heroku! Verify your account. --- Forwarded message ---
+
+Please consider the environment",2026-05-01 04:00:00,Normal,id=9030;host=gmail-srv-1,Positive
+MSG_0243,user_761@example.com,RE: You've won a $1000 p...,??? You've won a $1000 prize! Claim your reward now! <br>,2026-05-15 08:00:00,Normal,id=2131;host=gmail-srv-3,Neutral
+MSG_0244,user_991@example.com,RE: Heroku: Sign-in succ...,"??? Heroku: Sign-in successful from Lagos, Nigeria. ???",2026-05-09 12:00:00,Normal,id=3449;host=gmail-srv-1,Positive
+MSG_0245,user_892@example.com,RE: Scholarship Committe...,"??? Scholarship Committee: We regret to inform you that you were not selected. !!!
+
+Sent from my iPhone",2026-05-27 23:00:00,Low,id=8611;host=gmail-srv-4,Negative
+MSG_0246,user_222@example.com,RE: Amazon: Your order h...,??? Amazon: Your order has been delivered. <br>,2026-05-09 22:00:00,High,id=4993;host=gmail-srv-1,Positive
+MSG_0247,user_291@example.com,RE: GitHub: Security ale...,@user GitHub: Security alert - A new SSH key was added. !!!,2026-05-28 07:00:00,Normal,id=3940;host=gmail-srv-3,Neutral
+MSG_0248,user_738@example.com,RE: CodeMagic: Build #40...,@user CodeMagic: Build #403 failed on step 'unit-tests'. @user,2026-05-11 22:00:00,Low,id=5596;host=gmail-srv-4,Negative
+MSG_0249,user_846@example.com,RE: You've won a $1000 p...,<br> You've won a $1000 prize! Claim your reward now! --- Forwarded message ---,2026-05-11 16:00:00,Normal,id=8452;host=gmail-srv-2,Neutral
+MSG_0250,user_724@example.com,RE: You've won a $1000 p...,"--- Forwarded message --- You've won a $1000 prize! Claim your reward now! --- Forwarded message ---
+
+Sent from my iPhone",2026-05-23 00:00:00,Normal,id=5098;host=gmail-srv-5,Neutral
+MSG_0251,user_455@example.com,RE: CodeMagic: Build #40...,--- Forwarded message --- CodeMagic: Build #402 successful for 'StudentApp'. <br>,2026-05-16 21:00:00,Low,id=8512;host=gmail-srv-1,Positive
+MSG_0252,user_707@example.com,RE: Heroku | Sign-up fai...,??? Heroku | Sign-up failed - Verification email expired. <br>,2026-05-18 06:00:00,Normal,id=6999;host=gmail-srv-4,Negative
+MSG_0253,user_834@example.com,RE: GitHub: Build passed...,<div> GitHub: Build passed for repo 'Final-Project-K'. <br>,2026-05-09 23:00:00,High,id=7814;host=gmail-srv-2,Positive
+MSG_0254,user_547@example.com,RE: Railway: Deployment ...,@user Railway: Deployment Successful for project 'my-api-v1' ???,2026-05-28 02:00:00,High,id=7137;host=gmail-srv-5,Positive
+MSG_0255,user_209@example.com,RE: Heroku: Billing aler...,"!!! Heroku: Billing alert - Your credit card was rejected. <div>
+
+Please consider the environment",2026-05-11 09:00:00,High,id=8721;host=gmail-srv-2,Negative
+MSG_0256,user_928@example.com,RE: Vercel: Your deploym...,"<div> Vercel: Your deployment is now live. !!!
+
+Please consider the environment",2026-05-15 04:00:00,Normal,id=6203;host=gmail-srv-3,Positive
+MSG_0257,user_225@example.com,RE: SERVICE TERMINATION ...,"@user SERVICE TERMINATION NOTICE: Your account has been suspended. @user
+
+Sent from my iPhone",2026-05-28 20:00:00,Normal,id=4865;host=gmail-srv-2,Negative
+MSG_0258,user_293@example.com,RE: Coursera: Financial ...,!!! Coursera: Financial Aid for 'Machine Learning' Approved! @user,2026-05-27 04:00:00,Low,id=9978;host=gmail-srv-2,Positive
+MSG_0259,user_786@example.com,RE: Vercel: Deployment t...,??? Vercel: Deployment to production failed. Check logs. --- Forwarded message ---,2026-05-15 11:00:00,High,id=3421;host=gmail-srv-1,Negative
+MSG_0260,user_976@example.com,RE: Railway: Payment fai...,"<br> Railway: Payment failed for the Developer Plan. <div>
+
+Sent from my mobile",2026-05-12 15:00:00,Normal,id=5211;host=gmail-srv-5,Negative
+MSG_0261,user_392@example.com,RE: Heroku: Sign-in succ...,"<div> Heroku: Sign-in successful from Lagos, Nigeria. @user
+
+Please consider the environment",2026-05-10 05:00:00,Normal,id=2884;host=gmail-srv-2,Positive
+MSG_0262,user_718@example.com,RE: Vultr: Monthly invoi...,"--- Forwarded message --- Vultr: Monthly invoice is ready for review. @user
+
+Please consider the environment",2026-05-25 04:00:00,Low,id=1006;host=gmail-srv-5,Neutral
+MSG_0263,user_871@example.com,RE: Railway: Deployment ...,"<br> Railway: Deployment Successful for project 'my-api-v1' <br>
+
+Sent from my mobile",2026-05-13 02:00:00,High,id=4860;host=gmail-srv-2,Positive
+MSG_0264,user_455@example.com,RE: Udemy: Registration ...,"--- Forwarded message --- Udemy: Registration Successful! Welcome to 'Deep Learning 101' --- Forwarded message ---
+
+Sent from my mobile",2026-05-29 10:00:00,Normal,id=8641;host=gmail-srv-4,Positive
+MSG_0265,user_368@example.com,RE: GitHub: Security ale...,"!!! GitHub: Security alert - A new SSH key was added. ???
+
+Best regards, David",2026-05-24 16:00:00,Low,id=5704;host=gmail-srv-4,Neutral
+MSG_0266,user_391@example.com,RE: Railway: Deployment ...,"<div> Railway: Deployment Successful for project 'my-api-v1' <br>
+
+Best regards, David",2026-05-03 21:00:00,Low,id=3178;host=gmail-srv-2,Positive
+MSG_0267,user_980@example.com,RE: Your Udemy password ...,<br> Your Udemy password has been successfully reset. @user,2026-05-26 20:00:00,High,id=2330;host=gmail-srv-5,Positive
+MSG_0268,user_964@example.com,RE: Heroku: Billing aler...,<div> Heroku: Billing alert - Your credit card was rejected. ???,2026-05-17 22:00:00,Low,id=2695;host=gmail-srv-3,Negative
+MSG_0269,user_560@example.com,RE: Railway: Payment fai...,"<br> Railway: Payment failed for the Developer Plan. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-05 15:00:00,Normal,id=6242;host=gmail-srv-5,Negative
+MSG_0270,user_396@example.com,RE: CodeMagic: Build #40...,"@user CodeMagic: Build #402 successful for 'StudentApp'. <div>
+
+Sent from my iPhone",2026-05-21 05:00:00,Normal,id=2117;host=gmail-srv-2,Positive
+MSG_0271,user_396@example.com,RE: Vercel: Your deploym...,"<br> Vercel: Your deployment is now live. --- Forwarded message ---
+
+Sent from my mobile",2026-05-08 12:00:00,High,id=7025;host=gmail-srv-1,Positive
+MSG_0272,user_834@example.com,RE: Scholarship Committe...,<div> Scholarship Committee: We regret to inform you that you were not selected. <br>,2026-05-13 22:00:00,High,id=6073;host=gmail-srv-2,Negative
+MSG_0273,user_806@example.com,RE: Amazon: Your order h...,"!!! Amazon: Your order has been delivered. ???
+
+Sent from my mobile",2026-05-30 00:00:00,Normal,id=2355;host=gmail-srv-3,Positive
+MSG_0274,user_909@example.com,RE: Heroku | Sign-up fai...,<br> Heroku | Sign-up failed - Verification email expired. !!!,2026-05-17 07:00:00,Normal,id=1776;host=gmail-srv-1,Negative
+MSG_0275,user_733@example.com,RE: You've won a $1000 p...,"!!! You've won a $1000 prize! Claim your reward now! <br>
+
+Best regards, David",2026-05-04 23:00:00,High,id=1743;host=gmail-srv-2,Neutral
+MSG_0276,user_669@example.com,RE: Heroku: Billing aler...,"<div> Heroku: Billing alert - Your credit card was rejected. <div>
+
+Sent from my iPhone",2026-05-14 19:00:00,High,id=5465;host=gmail-srv-1,Negative
+MSG_0277,user_385@example.com,RE: LinkedIn: 5 people v...,@user LinkedIn: 5 people viewed your profile this week. ???,2026-05-29 04:00:00,Low,id=7289;host=gmail-srv-1,Neutral
+MSG_0278,user_555@example.com,RE: Coursera: Financial ...,--- Forwarded message --- Coursera: Financial Aid for 'Machine Learning' Approved! @user,2026-05-10 07:00:00,Normal,id=6949;host=gmail-srv-4,Positive
+MSG_0279,user_960@example.com,RE: Alert: Your Masterca...,"@user Alert: Your Mastercard ending in 4421 was declined for Udemy. --- Forwarded message ---
+
+Sent from my iPhone",2026-05-19 08:00:00,High,id=3652;host=gmail-srv-3,Negative
+MSG_0280,user_312@example.com,RE: Heroku: Sign-in succ...,"!!! Heroku: Sign-in successful from Lagos, Nigeria. <div>
+
+Best regards, David",2026-05-19 18:00:00,High,id=2190;host=gmail-srv-2,Positive
+MSG_0281,user_437@example.com,RE: GitHub: Build passed...,<div> GitHub: Build passed for repo 'Final-Project-K'. --- Forwarded message ---,2026-05-10 11:00:00,Normal,id=7072;host=gmail-srv-5,Positive
+MSG_0282,user_815@example.com,RE: Vercel: Deployment t...,??? Vercel: Deployment to production failed. Check logs. !!!,2026-05-25 08:00:00,Low,id=2897;host=gmail-srv-2,Negative
+MSG_0283,user_702@example.com,RE: Udemy: Registration ...,@user Udemy: Registration Successful! Welcome to 'Deep Learning 101' <div>,2026-05-02 16:00:00,High,id=8354;host=gmail-srv-5,Positive
+MSG_0284,user_170@example.com,RE: Coursera: Financial ...,"??? Coursera: Financial Aid for 'Machine Learning' Approved! !!!
+
+Sent from my iPhone",2026-05-02 22:00:00,Low,id=4504;host=gmail-srv-1,Positive
+MSG_0285,user_984@example.com,RE: CodeMagic: Build #40...,"!!! CodeMagic: Build #403 failed on step 'unit-tests'. !!!
+
+Please consider the environment",2026-05-21 13:00:00,High,id=9656;host=gmail-srv-2,Negative
+MSG_0286,user_495@example.com,RE: CodeMagic: Build #40...,<br> CodeMagic: Build #402 successful for 'StudentApp'. !!!,2026-05-19 23:00:00,Normal,id=6194;host=gmail-srv-2,Positive
+MSG_0287,user_749@example.com,RE: Amazon: Your order h...,"@user Amazon: Your order has been delivered. !!!
+
+Sent from my mobile",2026-05-02 01:00:00,Low,id=1254;host=gmail-srv-2,Positive
+MSG_0288,user_129@example.com,RE: Amazon: Your order h...,!!! Amazon: Your order has been delivered. <br>,2026-05-02 10:00:00,Normal,id=4796;host=gmail-srv-3,Positive
+MSG_0289,user_709@example.com,RE: Paystack: Transactio...,"@user Paystack: Transaction successful - NGN 5,000 to Udemy. ???
+
+Sent from my iPhone",2026-05-11 02:00:00,Low,id=6394;host=gmail-srv-4,Positive
+MSG_0290,user_525@example.com,RE: Vercel: Deployment t...,--- Forwarded message --- Vercel: Deployment to production failed. Check logs. <br>,2026-05-05 03:00:00,Low,id=6162;host=gmail-srv-5,Negative
+MSG_0291,user_702@example.com,RE: Heroku | Sign-up fai...,"<br> Heroku | Sign-up failed - Verification email expired. !!!
+
+Best regards, David",2026-05-08 08:00:00,Low,id=2687;host=gmail-srv-1,Negative
+MSG_0292,user_437@example.com,RE: Vercel: Deployment t...,"!!! Vercel: Deployment to production failed. Check logs. --- Forwarded message ---
+
+Sent from my mobile",2026-05-12 01:00:00,High,id=2122;host=gmail-srv-4,Negative
+MSG_0293,user_509@example.com,RE: CodeMagic: Build #40...,--- Forwarded message --- CodeMagic: Build #402 successful for 'StudentApp'. --- Forwarded message ---,2026-05-20 19:00:00,Normal,id=6037;host=gmail-srv-5,Positive
+MSG_0294,user_319@example.com,RE: Railway: Payment fai...,"@user Railway: Payment failed for the Developer Plan. --- Forwarded message ---
+
+Please consider the environment",2026-05-09 20:00:00,High,id=5298;host=gmail-srv-5,Negative
+MSG_0295,user_370@example.com,RE: CodeMagic: Build #40...,@user CodeMagic: Build #402 successful for 'StudentApp'. <div>,2026-05-03 01:00:00,Low,id=4617;host=gmail-srv-2,Positive
+MSG_0296,user_305@example.com,RE: Vercel: Deployment t...,<div> Vercel: Deployment to production failed. Check logs. !!!,2026-05-01 03:00:00,High,id=5041;host=gmail-srv-4,Negative
+MSG_0297,user_852@example.com,RE: Scholarship Committe...,@user Scholarship Committee: We regret to inform you that you were not selected. <div>,2026-05-29 03:00:00,Low,id=4545;host=gmail-srv-2,Negative
+MSG_0298,user_399@example.com,RE: Railway: Deployment ...,--- Forwarded message --- Railway: Deployment Successful for project 'my-api-v1' <div>,2026-05-08 11:00:00,Low,id=6110;host=gmail-srv-3,Positive
+MSG_0299,user_272@example.com,RE: SERVICE TERMINATION ...,"??? SERVICE TERMINATION NOTICE: Your account has been suspended. <div>
+
+Best regards, David",2026-05-09 19:00:00,High,id=4192;host=gmail-srv-4,Negative

@@ -1,0 +1,301 @@
+msg_id,sender_number,time,text,media_attached,chat_type,is_starred,sentiment
+WA_0000,+234-80-5743-40,16:53,@user The payment for the course went through! !!!,True,Personal,True,Positive
+WA_0001,+234-80-4679-89,11:53,"<br> Bro, the card declined again at the mall. Embarrassing. <br>",True,Personal,True,Negative
+WA_0002,+234-80-4187-93,10:45,??? MTN: Subscription of 10GB Data successful. Balance: 12GB. @user,False,Personal,True,Positive
+WA_0003,+234-80-9524-80,09:26,<br> The wifi in the hostel is down again. I hate this place. <br>,False,Personal,True,Negative
+WA_0004,+234-80-3871-47,19:38,<div> I'm breaking up with this internship. No pay. @user,False,Personal,False,Negative
+WA_0005,+234-80-3351-13,02:47,!!! Heartbreak is real... she just sent the 'we need to talk' text. ???,False,Personal,False,Negative
+WA_0006,+234-80-8471-90,13:37,<br> The lecturer just canceled the 8am class! Praise God! ???,True,Personal,False,Positive
+WA_0007,+234-80-4066-89,00:46,<br> The wifi in the hostel is down again. I hate this place. @user,True,Personal,False,Negative
+WA_0008,+234-80-2397-14,20:10,??? Yo! The build on CodeMagic finally passed! Let's go! <br>,True,Personal,True,Positive
+WA_0009,+234-80-3349-80,22:41,??? Final project build failed... only 2 hours left. !!!,True,Personal,False,Negative
+WA_0010,+234-80-2631-36,20:07,@user The wifi in the hostel is down again. I hate this place. !!!,False,Personal,True,Negative
+WA_0011,+234-80-7177-50,02:04,"!!! Railway is so much better, deployment was 100% successful. @user",False,Personal,True,Positive
+WA_0012,+234-80-7127-46,06:02,<br> MTN: Your data balance is below 100MB. --- Forwarded message ---,False,Personal,False,Negative
+WA_0013,+234-80-9720-73,05:57,??? Final project build failed... only 2 hours left. <br>,False,Personal,False,Negative
+WA_0014,+234-80-1087-46,04:25,<div> CodeMagic is taking forever... 20 mins and still running. --- Forwarded message ---,True,Personal,False,Neutral
+WA_0015,+234-80-8718-24,12:15,"@user Bro, the card declined again at the mall. Embarrassing. ???",True,Personal,True,Negative
+WA_0016,+234-80-3568-90,21:58,@user Yo! The build on CodeMagic finally passed! Let's go! !!!,True,Personal,False,Positive
+WA_0017,+234-80-6107-50,01:37,<div> Heartbreak is real... she just sent the 'we need to talk' text. <div>,False,Personal,True,Negative
+WA_0018,+234-80-1869-92,01:14,@user Heartbreak is real... she just sent the 'we need to talk' text. !!!,False,Personal,False,Negative
+WA_0019,+234-80-4882-84,08:37,!!! The deployment on Vercel failed again. I'm tired. --- Forwarded message ---,True,Personal,False,Negative
+WA_0020,+234-80-5863-95,09:21,!!! I'm breaking up with this internship. No pay. <div>,True,Personal,False,Negative
+WA_0021,+234-80-8056-76,21:34,"--- Forwarded message --- Heroku is acting up again, sign in successful but no app. !!!",True,Personal,False,Negative
+WA_0022,+234-80-9186-21,14:09,--- Forwarded message --- Final project build failed... only 2 hours left. <br>,True,Personal,False,Negative
+WA_0023,+234-80-8108-96,03:24,@user See you at the library at 5pm. ???,False,Personal,False,Neutral
+WA_0024,+234-80-9581-79,11:45,??? Heartbreak is real... she just sent the 'we need to talk' text. !!!,True,Personal,True,Negative
+WA_0025,+234-80-1937-30,17:19,--- Forwarded message --- The wifi in the hostel is down again. I hate this place. <br>,False,Personal,True,Negative
+WA_0026,+234-80-4402-44,09:38,!!! Final project build failed... only 2 hours left. ???,True,Personal,False,Negative
+WA_0027,+234-80-6545-18,12:29,??? MTN: Subscription of 10GB Data successful. Balance: 12GB. <br>,True,Personal,False,Positive
+WA_0028,+234-80-3881-65,02:58,"??? I love you so much, thank you for being there. @user",False,Personal,False,Positive
+WA_0029,+234-80-7786-47,23:49,"--- Forwarded message --- Railway is so much better, deployment was 100% successful. <div>",False,Personal,True,Positive
+WA_0030,+234-80-6835-87,14:38,"??? Heroku is acting up again, sign in successful but no app. --- Forwarded message ---",False,Personal,True,Negative
+WA_0031,+234-80-6381-55,14:41,<br> CodeMagic is taking forever... 20 mins and still running. --- Forwarded message ---,True,Personal,True,Neutral
+WA_0032,+234-80-2551-32,16:53,"??? Bro, the card declined again at the mall. Embarrassing. ???",True,Personal,False,Negative
+WA_0033,+234-80-6300-15,02:25,<div> MTN: Your data balance is below 100MB. !!!,True,Personal,True,Negative
+WA_0034,+234-80-3646-45,22:01,@user Final project build failed... only 2 hours left. !!!,True,Personal,True,Negative
+WA_0035,+234-80-2915-36,00:02,@user Happy birthday! Have a great day ahead! --- Forwarded message ---,True,Personal,True,Positive
+WA_0036,+234-80-3221-97,21:45,"<br> I love you so much, thank you for being there. !!!",False,Personal,True,Positive
+WA_0037,+234-80-8061-27,17:18,--- Forwarded message --- MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,True,Personal,False,Positive
+WA_0038,+234-80-1824-66,04:03,"--- Forwarded message --- Heroku is acting up again, sign in successful but no app. <br>",False,Personal,False,Negative
+WA_0039,+234-80-5397-61,15:34,"??? I love you so much, thank you for being there. <br>",True,Personal,True,Positive
+WA_0040,+234-80-2308-25,23:14,"??? Bro, the card declined again at the mall. Embarrassing. --- Forwarded message ---",False,Personal,True,Negative
+WA_0041,+234-80-3081-28,05:59,<br> Final project build failed... only 2 hours left. @user,False,Personal,True,Negative
+WA_0042,+234-80-5478-22,21:52,??? I think we should stop seeing each other... we are breaking up. <br>,False,Personal,False,Negative
+WA_0043,+234-80-3335-88,00:47,--- Forwarded message --- Scholarship rejected. I'm honestly devastated. <br>,True,Personal,True,Negative
+WA_0044,+234-80-9719-80,13:16,--- Forwarded message --- I'm breaking up with this internship. No pay. !!!,True,Personal,False,Negative
+WA_0045,+234-80-8110-21,00:35,--- Forwarded message --- See you at the library at 5pm. @user,True,Personal,False,Neutral
+WA_0046,+234-80-9882-17,22:41,--- Forwarded message --- Final project build failed... only 2 hours left. ???,False,Personal,False,Negative
+WA_0047,+234-80-7694-17,05:39,<div> Heartbreak is real... she just sent the 'we need to talk' text. ???,False,Personal,False,Negative
+WA_0048,+234-80-5071-65,03:29,<div> I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,False,Personal,True,Negative
+WA_0049,+234-80-5454-33,15:45,--- Forwarded message --- Final project build failed... only 2 hours left. @user,False,Personal,False,Negative
+WA_0050,+234-80-6749-81,06:08,!!! The lecturer just canceled the 8am class! Praise God! --- Forwarded message ---,False,Personal,False,Positive
+WA_0051,+234-80-8978-27,22:44,!!! The payment for the course went through! @user,True,Personal,True,Positive
+WA_0052,+234-80-7457-41,07:36,"!!! I love you so much, thank you for being there. <br>",False,Personal,False,Positive
+WA_0053,+234-80-9949-57,19:18,<div> Scholarship rejected. I'm honestly devastated. @user,True,Personal,False,Negative
+WA_0054,+234-80-8578-62,05:15,@user Successfully deployed to Railway. Link: app.railway.app @user,True,Personal,False,Positive
+WA_0055,+234-80-8496-31,13:48,--- Forwarded message --- The wifi in the hostel is down again. I hate this place. <div>,False,Personal,True,Negative
+WA_0056,+234-80-5523-60,09:55,<br> The deployment on Vercel failed again. I'm tired. <br>,False,Personal,True,Negative
+WA_0057,+234-80-1700-42,10:45,!!! Who is coming for the tech meetup tonight? <div>,True,Personal,False,Neutral
+WA_0058,+234-80-7944-92,01:17,--- Forwarded message --- I think we should stop seeing each other... we are breaking up. @user,False,Personal,True,Negative
+WA_0059,+234-80-4010-33,07:51,@user Just got the internship offer from Google! I'm screaming! ???,True,Personal,True,Positive
+WA_0060,+234-80-5468-74,19:44,!!! My bank app is not working and I need to pay for the course. @user,True,Personal,False,Negative
+WA_0061,+234-80-5787-48,09:15,<br> Just got the internship offer from Google! I'm screaming! ???,False,Personal,False,Positive
+WA_0062,+234-80-8286-65,22:57,"<div> I love you so much, thank you for being there. <div>",False,Personal,False,Positive
+WA_0063,+234-80-1808-49,14:51,<div> Scholarship rejected. I'm honestly devastated. <br>,True,Personal,True,Negative
+WA_0064,+234-80-7814-21,05:29,"<br> Heroku is acting up again, sign in successful but no app. --- Forwarded message ---",False,Personal,True,Negative
+WA_0065,+234-80-7862-65,16:02,!!! Final project build failed... only 2 hours left. ???,False,Personal,True,Negative
+WA_0066,+234-80-8120-12,13:38,"@user Heroku is acting up again, sign in successful but no app. @user",False,Personal,False,Negative
+WA_0067,+234-80-3576-31,17:59,@user The payment for the course went through! @user,False,Personal,False,Positive
+WA_0068,+234-80-5950-98,23:20,<br> Happy birthday! Have a great day ahead! ???,False,Personal,True,Positive
+WA_0069,+234-80-7564-93,21:46,<div> I think we should stop seeing each other... we are breaking up. <br>,False,Personal,True,Negative
+WA_0070,+234-80-6672-19,08:59,@user CodeMagic is taking forever... 20 mins and still running. @user,True,Personal,False,Neutral
+WA_0071,+234-80-3684-38,13:26,"@user Bro, the card declined again at the mall. Embarrassing. --- Forwarded message ---",False,Personal,False,Negative
+WA_0072,+234-80-5453-86,08:55,@user The payment for the course went through! --- Forwarded message ---,False,Personal,True,Positive
+WA_0073,+234-80-8508-88,03:36,<div> Yo! The build on CodeMagic finally passed! Let's go! @user,False,Personal,False,Positive
+WA_0074,+234-80-6172-81,05:09,<div> The lecturer just canceled the 8am class! Praise God! @user,True,Personal,True,Positive
+WA_0075,+234-80-9334-24,22:04,!!! I think we should stop seeing each other... we are breaking up. @user,False,Personal,True,Negative
+WA_0076,+234-80-7825-85,10:11,<br> The payment for the course went through! --- Forwarded message ---,True,Personal,True,Positive
+WA_0077,+234-80-6406-54,11:59,<br> MTN: Your data balance is below 100MB. @user,False,Personal,False,Negative
+WA_0078,+234-80-5220-34,09:24,??? The lecturer just canceled the 8am class! Praise God! ???,True,Personal,True,Positive
+WA_0079,+234-80-4320-16,14:07,??? The deployment on Vercel failed again. I'm tired. @user,False,Personal,True,Negative
+WA_0080,+234-80-3874-26,05:10,@user The lecturer just canceled the 8am class! Praise God! <div>,False,Personal,False,Positive
+WA_0081,+234-80-5147-39,12:13,--- Forwarded message --- Scholarship rejected. I'm honestly devastated. <br>,False,Personal,True,Negative
+WA_0082,+234-80-3551-71,18:48,--- Forwarded message --- I'm breaking up with this internship. No pay. !!!,True,Personal,True,Negative
+WA_0083,+234-80-8046-66,10:04,<div> Happy birthday! Have a great day ahead! <div>,True,Personal,True,Positive
+WA_0084,+234-80-6329-92,13:12,"<div> I love you so much, thank you for being there. ???",False,Personal,False,Positive
+WA_0085,+234-80-4480-32,18:47,!!! Yo! The build on CodeMagic finally passed! Let's go! <br>,False,Personal,True,Positive
+WA_0086,+234-80-6965-38,16:45,!!! The wifi in the hostel is down again. I hate this place. ???,False,Personal,True,Negative
+WA_0087,+234-80-5121-40,13:42,<div> Hey! Did you see the lucky prize winner list? <br>,True,Personal,False,Positive
+WA_0088,+234-80-5001-91,19:03,<div> Heartbreak is real... she just sent the 'we need to talk' text. <div>,False,Personal,True,Negative
+WA_0089,+234-80-6540-36,12:11,<br> Who is coming for the tech meetup tonight? <br>,True,Personal,True,Neutral
+WA_0090,+234-80-4033-81,15:49,<br> I think we should stop seeing each other... we are breaking up. <div>,False,Personal,True,Negative
+WA_0091,+234-80-3078-16,00:12,<div> See you at the library at 5pm. !!!,True,Personal,True,Neutral
+WA_0092,+234-80-5480-79,18:43,??? Heartbreak is real... she just sent the 'we need to talk' text. --- Forwarded message ---,True,Personal,False,Negative
+WA_0093,+234-80-9454-84,22:49,<div> The payment for the course went through! !!!,True,Personal,True,Positive
+WA_0094,+234-80-7466-51,20:36,??? The wifi in the hostel is down again. I hate this place. !!!,True,Personal,False,Negative
+WA_0095,+234-80-8013-86,01:24,<div> See you at the library at 5pm. ???,False,Personal,False,Neutral
+WA_0096,+234-80-7638-87,08:41,<div> Who is coming for the tech meetup tonight? <div>,True,Personal,False,Neutral
+WA_0097,+234-80-8729-88,11:32,<div> See you at the library at 5pm. @user,True,Personal,True,Neutral
+WA_0098,+234-80-5172-36,12:51,??? I think we should stop seeing each other... we are breaking up. ???,True,Personal,False,Negative
+WA_0099,+234-80-5397-56,08:59,<div> CodeMagic is taking forever... 20 mins and still running. <div>,False,Personal,False,Neutral
+WA_0100,+234-80-1450-82,16:57,??? I think we should stop seeing each other... we are breaking up. <div>,False,Personal,True,Negative
+WA_0101,+234-80-3278-38,23:07,??? Who is coming for the tech meetup tonight? !!!,True,Personal,True,Neutral
+WA_0102,+234-80-1219-51,22:34,"<div> Heroku is acting up again, sign in successful but no app. <div>",True,Personal,False,Negative
+WA_0103,+234-80-1786-61,13:24,--- Forwarded message --- I think we should stop seeing each other... we are breaking up. @user,False,Personal,True,Negative
+WA_0104,+234-80-7605-12,01:31,??? Hey! Did you see the lucky prize winner list? <div>,True,Personal,True,Positive
+WA_0105,+234-80-1530-96,03:09,!!! Who is coming for the tech meetup tonight? <br>,True,Personal,True,Neutral
+WA_0106,+234-80-5587-84,14:08,??? The lecturer just canceled the 8am class! Praise God! @user,False,Personal,True,Positive
+WA_0107,+234-80-1256-49,11:11,!!! Who is coming for the tech meetup tonight? --- Forwarded message ---,True,Personal,False,Neutral
+WA_0108,+234-80-8056-50,19:04,!!! Yo! The build on CodeMagic finally passed! Let's go! !!!,True,Personal,True,Positive
+WA_0109,+234-80-6841-53,16:31,??? Successfully deployed to Railway. Link: app.railway.app @user,False,Personal,True,Positive
+WA_0110,+234-80-3932-60,23:48,<br> I think we should stop seeing each other... we are breaking up. <br>,True,Personal,True,Negative
+WA_0111,+234-80-6904-26,14:37,@user CodeMagic is taking forever... 20 mins and still running. ???,True,Personal,True,Neutral
+WA_0112,+234-80-5072-28,12:20,!!! Final project build failed... only 2 hours left. <br>,False,Personal,True,Negative
+WA_0113,+234-80-8935-37,19:35,??? I'm breaking up with this internship. No pay. <br>,True,Personal,False,Negative
+WA_0114,+234-80-4000-22,01:10,!!! MTN: Your data balance is below 100MB. <br>,True,Personal,False,Negative
+WA_0115,+234-80-7745-86,07:12,??? Successfully deployed to Railway. Link: app.railway.app <div>,False,Personal,True,Positive
+WA_0116,+234-80-4212-78,07:35,??? CodeMagic is taking forever... 20 mins and still running. <div>,True,Personal,False,Neutral
+WA_0117,+234-80-5687-28,16:47,??? I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,True,Personal,False,Negative
+WA_0118,+234-80-3981-70,22:27,??? I think we should stop seeing each other... we are breaking up. !!!,False,Personal,False,Negative
+WA_0119,+234-80-9799-14,00:32,??? Final project build failed... only 2 hours left. --- Forwarded message ---,True,Personal,True,Negative
+WA_0120,+234-80-1647-19,05:45,??? The payment for the course went through! <br>,True,Personal,False,Positive
+WA_0121,+234-80-8198-19,09:08,@user Just got the internship offer from Google! I'm screaming! <div>,True,Personal,True,Positive
+WA_0122,+234-80-8842-79,04:12,??? The deployment on Vercel failed again. I'm tired. --- Forwarded message ---,False,Personal,True,Negative
+WA_0123,+234-80-6691-29,20:38,<br> My bank app is not working and I need to pay for the course. <br>,True,Personal,True,Negative
+WA_0124,+234-80-4230-11,18:57,@user Heartbreak is real... she just sent the 'we need to talk' text. <div>,False,Personal,False,Negative
+WA_0125,+234-80-6611-94,19:07,!!! The wifi in the hostel is down again. I hate this place. --- Forwarded message ---,False,Personal,False,Negative
+WA_0126,+234-80-9686-38,17:12,<div> Hey! Did you see the lucky prize winner list? --- Forwarded message ---,True,Personal,True,Positive
+WA_0127,+234-80-5993-59,03:45,<br> Scholarship rejected. I'm honestly devastated. !!!,False,Personal,False,Negative
+WA_0128,+234-80-2282-73,22:29,@user Heartbreak is real... she just sent the 'we need to talk' text. ???,False,Personal,True,Negative
+WA_0129,+234-80-3144-66,07:00,<div> See you at the library at 5pm. ???,True,Personal,True,Neutral
+WA_0130,+234-80-3301-60,02:25,"@user Heroku is acting up again, sign in successful but no app. ???",False,Personal,True,Negative
+WA_0131,+234-80-7507-31,13:50,<div> I'm breaking up with this internship. No pay. ???,False,Personal,False,Negative
+WA_0132,+234-80-9962-40,18:18,"--- Forwarded message --- Heroku is acting up again, sign in successful but no app. <div>",True,Personal,False,Negative
+WA_0133,+234-80-9139-20,20:34,@user MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,False,Personal,True,Positive
+WA_0134,+234-80-2610-87,18:43,@user The lecturer just canceled the 8am class! Praise God! --- Forwarded message ---,False,Personal,True,Positive
+WA_0135,+234-80-4835-28,11:50,<div> Successfully deployed to Railway. Link: app.railway.app @user,True,Personal,False,Positive
+WA_0136,+234-80-4245-82,04:04,??? Successfully deployed to Railway. Link: app.railway.app !!!,False,Personal,True,Positive
+WA_0137,+234-80-6836-12,04:17,"<div> Railway is so much better, deployment was 100% successful. <br>",True,Personal,False,Positive
+WA_0138,+234-80-7950-46,20:12,"??? Heroku is acting up again, sign in successful but no app. ???",False,Personal,False,Negative
+WA_0139,+234-80-4461-16,10:13,"<br> Railway is so much better, deployment was 100% successful. <div>",True,Personal,True,Positive
+WA_0140,+234-80-1052-67,00:01,<div> I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,False,Personal,True,Negative
+WA_0141,+234-80-8500-68,15:49,<br> I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,True,Personal,True,Negative
+WA_0142,+234-80-8490-65,17:49,"??? I love you so much, thank you for being there. ???",False,Personal,False,Positive
+WA_0143,+234-80-9121-98,04:48,??? Final project build failed... only 2 hours left. ???,False,Personal,True,Negative
+WA_0144,+234-80-5217-47,01:46,--- Forwarded message --- My bank app is not working and I need to pay for the course. !!!,False,Personal,True,Negative
+WA_0145,+234-80-3035-91,04:27,??? Happy birthday! Have a great day ahead! <br>,False,Personal,False,Positive
+WA_0146,+234-80-3189-68,11:40,??? Successfully deployed to Railway. Link: app.railway.app ???,True,Personal,True,Positive
+WA_0147,+234-80-6916-89,11:08,@user The lecturer just canceled the 8am class! Praise God! @user,False,Personal,True,Positive
+WA_0148,+234-80-2918-20,19:51,--- Forwarded message --- Yo! The build on CodeMagic finally passed! Let's go! --- Forwarded message ---,False,Personal,True,Positive
+WA_0149,+234-80-4374-66,14:31,<br> MTN: Your data balance is below 100MB. ???,False,Personal,False,Negative
+WA_0150,+234-80-4115-59,23:20,@user The wifi in the hostel is down again. I hate this place. --- Forwarded message ---,False,Personal,False,Negative
+WA_0151,+234-80-7407-17,18:10,!!! Final project build failed... only 2 hours left. ???,True,Personal,False,Negative
+WA_0152,+234-80-5474-41,18:03,<div> Heartbreak is real... she just sent the 'we need to talk' text. <div>,False,Personal,False,Negative
+WA_0153,+234-80-3678-59,12:10,"<div> Railway is so much better, deployment was 100% successful. !!!",True,Personal,True,Positive
+WA_0154,+234-80-4939-65,17:06,@user The lecturer just canceled the 8am class! Praise God! ???,False,Personal,True,Positive
+WA_0155,+234-80-1214-22,16:47,??? My bank app is not working and I need to pay for the course. !!!,True,Personal,False,Negative
+WA_0156,+234-80-6289-14,10:44,"--- Forwarded message --- I love you so much, thank you for being there. <br>",False,Personal,False,Positive
+WA_0157,+234-80-8455-59,09:48,"@user Bro, the card declined again at the mall. Embarrassing. <div>",True,Personal,False,Negative
+WA_0158,+234-80-1851-97,13:01,??? The deployment on Vercel failed again. I'm tired. <div>,True,Personal,False,Negative
+WA_0159,+234-80-7062-94,17:04,??? Who is coming for the tech meetup tonight? <br>,False,Personal,False,Neutral
+WA_0160,+234-80-2130-81,18:48,!!! Yo! The build on CodeMagic finally passed! Let's go! <br>,True,Personal,True,Positive
+WA_0161,+234-80-8907-26,16:37,??? I'm breaking up with this internship. No pay. <br>,False,Personal,False,Negative
+WA_0162,+234-80-6012-22,21:59,<br> The payment for the course went through! !!!,True,Personal,True,Positive
+WA_0163,+234-80-4687-26,01:35,--- Forwarded message --- Successfully deployed to Railway. Link: app.railway.app <div>,True,Personal,False,Positive
+WA_0164,+234-80-4826-23,04:29,--- Forwarded message --- I think we should stop seeing each other... we are breaking up. <div>,False,Personal,True,Negative
+WA_0165,+234-80-3165-21,23:37,<br> Successfully deployed to Railway. Link: app.railway.app @user,False,Personal,False,Positive
+WA_0166,+234-80-6363-21,04:54,!!! CodeMagic is taking forever... 20 mins and still running. <div>,False,Personal,True,Neutral
+WA_0167,+234-80-1422-23,07:20,??? Yo! The build on CodeMagic finally passed! Let's go! ???,True,Personal,False,Positive
+WA_0168,+234-80-4074-77,00:00,--- Forwarded message --- The lecturer just canceled the 8am class! Praise God! <br>,True,Personal,False,Positive
+WA_0169,+234-80-8020-72,18:03,--- Forwarded message --- MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,True,Personal,False,Positive
+WA_0170,+234-80-7026-65,21:22,<div> The wifi in the hostel is down again. I hate this place. !!!,True,Personal,False,Negative
+WA_0171,+234-80-5618-52,05:00,??? The lecturer just canceled the 8am class! Praise God! ???,True,Personal,False,Positive
+WA_0172,+234-80-2772-67,14:18,"<div> I love you so much, thank you for being there. ???",False,Personal,False,Positive
+WA_0173,+234-80-8375-67,03:50,<br> The deployment on Vercel failed again. I'm tired. <div>,True,Personal,True,Negative
+WA_0174,+234-80-8793-19,09:27,@user Just got the internship offer from Google! I'm screaming! --- Forwarded message ---,False,Personal,True,Positive
+WA_0175,+234-80-1254-61,10:43,!!! The lecturer just canceled the 8am class! Praise God! <br>,True,Personal,True,Positive
+WA_0176,+234-80-9542-74,03:13,!!! MTN: Subscription of 10GB Data successful. Balance: 12GB. ???,True,Personal,True,Positive
+WA_0177,+234-80-8327-21,03:11,@user Scholarship rejected. I'm honestly devastated. <br>,True,Personal,True,Negative
+WA_0178,+234-80-8099-87,21:25,"--- Forwarded message --- Heroku is acting up again, sign in successful but no app. <div>",False,Personal,True,Negative
+WA_0179,+234-80-1750-86,06:16,<br> MTN: Your data balance is below 100MB. @user,False,Personal,False,Negative
+WA_0180,+234-80-9184-88,09:46,@user MTN: Your data balance is below 100MB. --- Forwarded message ---,False,Personal,True,Negative
+WA_0181,+234-80-5455-61,22:16,<div> CodeMagic is taking forever... 20 mins and still running. !!!,True,Personal,False,Neutral
+WA_0182,+234-80-9062-11,00:01,@user I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,True,Personal,True,Negative
+WA_0183,+234-80-3466-30,06:03,!!! MTN: Subscription of 10GB Data successful. Balance: 12GB. @user,True,Personal,True,Positive
+WA_0184,+234-80-3899-70,21:56,??? MTN: Subscription of 10GB Data successful. Balance: 12GB. @user,False,Personal,True,Positive
+WA_0185,+234-80-7792-38,11:14,"!!! Bro, the card declined again at the mall. Embarrassing. ???",False,Personal,False,Negative
+WA_0186,+234-80-1426-32,07:35,??? Final project build failed... only 2 hours left. @user,True,Personal,True,Negative
+WA_0187,+234-80-7979-37,16:53,--- Forwarded message --- Scholarship rejected. I'm honestly devastated. <div>,False,Personal,True,Negative
+WA_0188,+234-80-9751-78,10:02,"<div> Railway is so much better, deployment was 100% successful. --- Forwarded message ---",True,Personal,True,Positive
+WA_0189,+234-80-6476-71,16:12,<br> Successfully deployed to Railway. Link: app.railway.app <br>,False,Personal,True,Positive
+WA_0190,+234-80-6785-76,03:08,"!!! Railway is so much better, deployment was 100% successful. <br>",False,Personal,True,Positive
+WA_0191,+234-80-6492-59,05:51,??? Yo! The build on CodeMagic finally passed! Let's go! !!!,False,Personal,False,Positive
+WA_0192,+234-80-9083-75,12:50,<br> I think we should stop seeing each other... we are breaking up. !!!,True,Personal,False,Negative
+WA_0193,+234-80-5009-69,08:30,@user Scholarship rejected. I'm honestly devastated. <div>,True,Personal,True,Negative
+WA_0194,+234-80-7968-70,18:06,--- Forwarded message --- Scholarship rejected. I'm honestly devastated. ???,True,Personal,False,Negative
+WA_0195,+234-80-7817-77,04:07,@user The lecturer just canceled the 8am class! Praise God! --- Forwarded message ---,True,Personal,True,Positive
+WA_0196,+234-80-3358-17,20:17,--- Forwarded message --- CodeMagic is taking forever... 20 mins and still running. @user,True,Personal,False,Neutral
+WA_0197,+234-80-5626-50,14:00,--- Forwarded message --- MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,True,Personal,False,Positive
+WA_0198,+234-80-4884-54,18:21,@user See you at the library at 5pm. @user,False,Personal,False,Neutral
+WA_0199,+234-80-2736-44,02:41,!!! Successfully deployed to Railway. Link: app.railway.app !!!,True,Personal,True,Positive
+WA_0200,+234-80-8524-71,21:17,"!!! Bro, the card declined again at the mall. Embarrassing. !!!",True,Personal,True,Negative
+WA_0201,+234-80-1554-84,23:17,"--- Forwarded message --- Heroku is acting up again, sign in successful but no app. @user",True,Personal,True,Negative
+WA_0202,+234-80-2020-40,01:59,!!! See you at the library at 5pm. <br>,False,Personal,True,Neutral
+WA_0203,+234-80-1511-27,08:21,??? Just got the internship offer from Google! I'm screaming! <div>,True,Personal,True,Positive
+WA_0204,+234-80-5811-89,21:39,--- Forwarded message --- The deployment on Vercel failed again. I'm tired. <br>,True,Personal,False,Negative
+WA_0205,+234-80-3531-56,00:46,!!! The lecturer just canceled the 8am class! Praise God! !!!,False,Personal,False,Positive
+WA_0206,+234-80-4069-69,06:54,<div> CodeMagic is taking forever... 20 mins and still running. <div>,False,Personal,False,Neutral
+WA_0207,+234-80-3644-79,01:25,--- Forwarded message --- Happy birthday! Have a great day ahead! ???,True,Personal,True,Positive
+WA_0208,+234-80-8429-37,08:16,@user MTN: Subscription of 10GB Data successful. Balance: 12GB. --- Forwarded message ---,False,Personal,True,Positive
+WA_0209,+234-80-6846-38,10:26,"--- Forwarded message --- Railway is so much better, deployment was 100% successful. <br>",True,Personal,False,Positive
+WA_0210,+234-80-8062-48,05:16,!!! Happy birthday! Have a great day ahead! ???,True,Personal,True,Positive
+WA_0211,+234-80-6573-84,10:20,<br> MTN: Your data balance is below 100MB. --- Forwarded message ---,True,Personal,True,Negative
+WA_0212,+234-80-6694-91,14:33,??? See you at the library at 5pm. @user,True,Personal,True,Neutral
+WA_0213,+234-80-9817-48,01:03,??? My bank app is not working and I need to pay for the course. <br>,False,Personal,False,Negative
+WA_0214,+234-80-6074-94,15:18,??? Happy birthday! Have a great day ahead! @user,True,Personal,False,Positive
+WA_0215,+234-80-1561-18,18:10,@user MTN: Your data balance is below 100MB. <br>,True,Personal,False,Negative
+WA_0216,+234-80-6784-50,02:35,<br> Heartbreak is real... she just sent the 'we need to talk' text. <div>,True,Personal,True,Negative
+WA_0217,+234-80-9823-33,10:21,??? MTN: Your data balance is below 100MB. <br>,False,Personal,False,Negative
+WA_0218,+234-80-9680-96,16:39,!!! Hey! Did you see the lucky prize winner list? --- Forwarded message ---,False,Personal,True,Positive
+WA_0219,+234-80-5828-65,08:40,??? Scholarship rejected. I'm honestly devastated. !!!,False,Personal,False,Negative
+WA_0220,+234-80-9043-30,11:07,<div> Scholarship rejected. I'm honestly devastated. @user,True,Personal,False,Negative
+WA_0221,+234-80-4882-60,20:43,"--- Forwarded message --- Railway is so much better, deployment was 100% successful. --- Forwarded message ---",False,Personal,False,Positive
+WA_0222,+234-80-6966-24,18:35,"@user Railway is so much better, deployment was 100% successful. <br>",True,Personal,False,Positive
+WA_0223,+234-80-1236-28,13:46,@user MTN: Your data balance is below 100MB. !!!,True,Personal,False,Negative
+WA_0224,+234-80-4694-61,15:48,!!! Happy birthday! Have a great day ahead! @user,False,Personal,True,Positive
+WA_0225,+234-80-1068-34,08:04,<br> Final project build failed... only 2 hours left. <br>,False,Personal,False,Negative
+WA_0226,+234-80-1227-32,08:27,<div> Just got the internship offer from Google! I'm screaming! @user,True,Personal,False,Positive
+WA_0227,+234-80-4857-99,17:35,!!! The payment for the course went through! ???,True,Personal,False,Positive
+WA_0228,+234-80-7249-77,23:32,"!!! Railway is so much better, deployment was 100% successful. <br>",False,Personal,False,Positive
+WA_0229,+234-80-6818-59,23:50,"@user Bro, the card declined again at the mall. Embarrassing. @user",True,Personal,True,Negative
+WA_0230,+234-80-4087-57,17:02,<div> Happy birthday! Have a great day ahead! ???,True,Personal,True,Positive
+WA_0231,+234-80-5387-32,01:04,"@user Bro, the card declined again at the mall. Embarrassing. @user",True,Personal,False,Negative
+WA_0232,+234-80-6611-17,02:53,!!! The deployment on Vercel failed again. I'm tired. @user,True,Personal,True,Negative
+WA_0233,+234-80-9641-45,03:58,"<div> Railway is so much better, deployment was 100% successful. <div>",False,Personal,True,Positive
+WA_0234,+234-80-7414-66,22:46,<br> Scholarship rejected. I'm honestly devastated. @user,True,Personal,False,Negative
+WA_0235,+234-80-3806-12,23:56,<br> I think we should stop seeing each other... we are breaking up. --- Forwarded message ---,True,Personal,False,Negative
+WA_0236,+234-80-3098-14,07:28,<br> Heartbreak is real... she just sent the 'we need to talk' text. !!!,False,Personal,False,Negative
+WA_0237,+234-80-2143-55,03:42,<div> The lecturer just canceled the 8am class! Praise God! <br>,True,Personal,True,Positive
+WA_0238,+234-80-8139-67,16:04,<br> I'm breaking up with this internship. No pay. !!!,False,Personal,True,Negative
+WA_0239,+234-80-1146-87,14:57,<div> The lecturer just canceled the 8am class! Praise God! !!!,True,Personal,True,Positive
+WA_0240,+234-80-1594-49,05:08,"!!! Railway is so much better, deployment was 100% successful. <div>",True,Personal,True,Positive
+WA_0241,+234-80-5710-30,01:14,!!! See you at the library at 5pm. <br>,True,Personal,False,Neutral
+WA_0242,+234-80-1981-16,17:50,@user Who is coming for the tech meetup tonight? --- Forwarded message ---,True,Personal,True,Neutral
+WA_0243,+234-80-6086-26,16:54,"!!! Heroku is acting up again, sign in successful but no app. @user",True,Personal,True,Negative
+WA_0244,+234-80-6322-73,05:31,@user The wifi in the hostel is down again. I hate this place. --- Forwarded message ---,False,Personal,True,Negative
+WA_0245,+234-80-8868-14,00:08,<br> MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,False,Personal,False,Positive
+WA_0246,+234-80-8058-92,18:39,??? The payment for the course went through! !!!,True,Personal,True,Positive
+WA_0247,+234-80-4076-33,05:18,--- Forwarded message --- The payment for the course went through! @user,False,Personal,False,Positive
+WA_0248,+234-80-2792-52,09:20,??? I think we should stop seeing each other... we are breaking up. <div>,False,Personal,False,Negative
+WA_0249,+234-80-7301-31,03:56,??? The deployment on Vercel failed again. I'm tired. <br>,True,Personal,True,Negative
+WA_0250,+234-80-1504-10,02:33,"<div> Bro, the card declined again at the mall. Embarrassing. --- Forwarded message ---",True,Personal,True,Negative
+WA_0251,+234-80-1955-43,05:06,!!! MTN: Your data balance is below 100MB. <br>,False,Personal,True,Negative
+WA_0252,+234-80-3670-29,12:48,!!! Who is coming for the tech meetup tonight? !!!,False,Personal,True,Neutral
+WA_0253,+234-80-7450-76,09:13,@user See you at the library at 5pm. @user,True,Personal,True,Neutral
+WA_0254,+234-80-3560-45,03:59,--- Forwarded message --- Successfully deployed to Railway. Link: app.railway.app <br>,True,Personal,True,Positive
+WA_0255,+234-80-5915-59,18:11,"!!! Bro, the card declined again at the mall. Embarrassing. ???",True,Personal,True,Negative
+WA_0256,+234-80-5249-74,02:22,??? MTN: Subscription of 10GB Data successful. Balance: 12GB. <div>,False,Personal,True,Positive
+WA_0257,+234-80-1642-24,05:11,<div> I'm breaking up with this internship. No pay. ???,True,Personal,True,Negative
+WA_0258,+234-80-7675-41,06:22,??? The payment for the course went through! @user,False,Personal,True,Positive
+WA_0259,+234-80-1082-10,14:50,@user The payment for the course went through! --- Forwarded message ---,False,Personal,True,Positive
+WA_0260,+234-80-6180-82,12:10,<div> Heartbreak is real... she just sent the 'we need to talk' text. !!!,False,Personal,False,Negative
+WA_0261,+234-80-9605-57,08:14,??? Who is coming for the tech meetup tonight? @user,False,Personal,False,Neutral
+WA_0262,+234-80-6515-53,17:11,"<div> Railway is so much better, deployment was 100% successful. @user",False,Personal,True,Positive
+WA_0263,+234-80-3922-11,16:04,<br> Heartbreak is real... she just sent the 'we need to talk' text. ???,True,Personal,False,Negative
+WA_0264,+234-80-5599-94,03:12,<div> Successfully deployed to Railway. Link: app.railway.app !!!,False,Personal,False,Positive
+WA_0265,+234-80-1320-83,03:48,--- Forwarded message --- Just got the internship offer from Google! I'm screaming! <br>,True,Personal,False,Positive
+WA_0266,+234-80-1699-85,18:04,<div> CodeMagic is taking forever... 20 mins and still running. ???,False,Personal,True,Neutral
+WA_0267,+234-80-6231-46,05:56,--- Forwarded message --- See you at the library at 5pm. @user,True,Personal,False,Neutral
+WA_0268,+234-80-6007-99,00:43,<div> See you at the library at 5pm. --- Forwarded message ---,True,Personal,True,Neutral
+WA_0269,+234-80-9805-26,23:21,<br> MTN: Subscription of 10GB Data successful. Balance: 12GB. <div>,True,Personal,False,Positive
+WA_0270,+234-80-1262-99,10:37,??? My bank app is not working and I need to pay for the course. <br>,True,Personal,True,Negative
+WA_0271,+234-80-4956-46,01:01,!!! See you at the library at 5pm. !!!,True,Personal,False,Neutral
+WA_0272,+234-80-8948-57,19:18,@user My bank app is not working and I need to pay for the course. ???,True,Personal,True,Negative
+WA_0273,+234-80-6723-57,13:38,??? Heartbreak is real... she just sent the 'we need to talk' text. <br>,True,Personal,False,Negative
+WA_0274,+234-80-1145-55,06:18,<br> Who is coming for the tech meetup tonight? <br>,True,Personal,False,Neutral
+WA_0275,+234-80-1068-21,03:17,!!! I think we should stop seeing each other... we are breaking up. <br>,False,Personal,False,Negative
+WA_0276,+234-80-2199-30,09:47,<br> The deployment on Vercel failed again. I'm tired. <div>,False,Personal,True,Negative
+WA_0277,+234-80-4754-51,08:14,@user The lecturer just canceled the 8am class! Praise God! <br>,False,Personal,False,Positive
+WA_0278,+234-80-3227-33,00:27,--- Forwarded message --- Final project build failed... only 2 hours left. <div>,True,Personal,True,Negative
+WA_0279,+234-80-3552-66,06:13,<div> The lecturer just canceled the 8am class! Praise God! !!!,False,Personal,False,Positive
+WA_0280,+234-80-3406-61,16:25,<div> Heartbreak is real... she just sent the 'we need to talk' text. <br>,False,Personal,False,Negative
+WA_0281,+234-80-4992-13,14:18,@user Who is coming for the tech meetup tonight? !!!,True,Personal,False,Neutral
+WA_0282,+234-80-7692-44,17:51,@user The payment for the course went through! --- Forwarded message ---,True,Personal,False,Positive
+WA_0283,+234-80-1334-33,15:57,<div> Happy birthday! Have a great day ahead! <div>,True,Personal,True,Positive
+WA_0284,+234-80-6422-79,02:49,??? See you at the library at 5pm. <div>,False,Personal,True,Neutral
+WA_0285,+234-80-3537-48,02:43,<br> The lecturer just canceled the 8am class! Praise God! !!!,False,Personal,True,Positive
+WA_0286,+234-80-1285-43,09:53,"<br> Railway is so much better, deployment was 100% successful. <br>",False,Personal,False,Positive
+WA_0287,+234-80-3053-32,05:25,@user The payment for the course went through! ???,False,Personal,True,Positive
+WA_0288,+234-80-6982-27,12:28,<div> See you at the library at 5pm. <br>,False,Personal,False,Neutral
+WA_0289,+234-80-4109-40,08:42,<br> MTN: Subscription of 10GB Data successful. Balance: 12GB. !!!,False,Personal,False,Positive
+WA_0290,+234-80-4300-66,05:30,--- Forwarded message --- The lecturer just canceled the 8am class! Praise God! <br>,False,Personal,False,Positive
+WA_0291,+234-80-6803-86,20:27,<br> Just got the internship offer from Google! I'm screaming! !!!,True,Personal,True,Positive
+WA_0292,+234-80-4952-40,02:45,!!! Scholarship rejected. I'm honestly devastated. <br>,False,Personal,True,Negative
+WA_0293,+234-80-3979-52,17:11,--- Forwarded message --- CodeMagic is taking forever... 20 mins and still running. @user,False,Personal,True,Neutral
+WA_0294,+234-80-7415-76,14:29,<div> Who is coming for the tech meetup tonight? --- Forwarded message ---,False,Personal,True,Neutral
+WA_0295,+234-80-6866-90,14:38,??? The lecturer just canceled the 8am class! Praise God! ???,True,Personal,False,Positive
+WA_0296,+234-80-4977-68,14:46,--- Forwarded message --- MTN: Your data balance is below 100MB. @user,True,Personal,False,Negative
+WA_0297,+234-80-1114-59,14:37,??? Yo! The build on CodeMagic finally passed! Let's go! <br>,False,Personal,True,Positive
+WA_0298,+234-80-7423-29,16:10,--- Forwarded message --- Hey! Did you see the lucky prize winner list? ???,True,Personal,False,Positive
+WA_0299,+234-80-9141-24,16:23,<br> The payment for the course went through! !!!,True,Personal,False,Positive
