@@ -66,13 +66,17 @@ Group-K-Machine-Learning/
 │   ├── raw/
 │   │   ├── sentimentdataset.csv          ← Kaggle: Social Media Sentiment Dataset
 │   │   ├── Tweets.csv                    ← Kaggle: Twitter US Airline Sentiment
-│   │   └── twitterdataset.csv            ← Kaggle: Twitter Entity Sentiment Analysis
+│   │   ├── twitterdataset.csv            ← Kaggle: Twitter Entity Sentiment Analysis
+│   │   ├── gmail_raw.csv                 ← Real-world: Exported Student Gmail Data
+│   │   └── whatsapp_raw.csv              ← Real-world: Exported Student WhatsApp Data
 │   └── processed/
 │       ├── processed_training_dataset.csv   ← 70% stratified training split
-│       └── processed_validation_datset.csv  ← 30% stratified validation split
+│       ├── processed_validation_datset.csv  ← 30% stratified validation split
+│       └── student_test_dataset.csv         ← Curated cross-domain test set
 │
 ├── notebooks/
-│   └── 00_data_cleaning.ipynb              ← Full cleaning, visualisation, balancing, and split pipeline
+│   ├── 00_data_cleaning.ipynb              ← Full cleaning & balancing pipeline
+│   └── 05_bert_distillbert.ipynb           ← Advanced Transformer Fine-Tuning & SHAP
 │
 └── report/
     └── Group_K_Report.pdf           ← Final written report
@@ -90,25 +94,18 @@ Group-K-Machine-Learning/
 | Twitter US Airline Sentiment | [Kaggle – Crowdflower](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | positive / negative / neutral |
 | Twitter Entity Sentiment Analysis | [Kaggle – jp797498e](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) | positive / negative / neutral (+ other labels filtered during normalisation) |
 
-After cleaning, label normalisation, deduplication, and balancing, the final combined dataset is split into:
+After cleaning, label normalisation, deduplication, and balancing, the final combined dataset is split into `processed_training_dataset.csv` and `processed_validation_datset.csv`.
 
-- `processed_training_dataset.csv` (70%)
-- `processed_validation_datset.csv` (30%)
+### Custom Test Set (Real-World Stress Test)
 
-Both splits keep the same sentiment proportions via stratified sampling.
+To evaluate cross-domain generalisation, we manually assembled a unique test set from sources outside the training distribution. This represents a "Stress Test" for our models using authentic, student-centric data.
 
-### Custom Test Set (group-labelled)
+| Source | Description | Size |
+|---|---|---|
+| **Gmail Exports** | Professional & academic correspondence (Scholarships, Heroku, Coursera) | 300 samples |
+| **WhatsApp Chats** | Informal everyday communication (Data subscriptions, breakdowns, friend groups) | 300 samples |
 
-To evaluate cross-domain generalisation, we manually assembled and labelled a test set from sources outside the training distribution. Each member of the group contributed samples and participated in the labelling process using agreed annotation guidelines (see report for inter-annotator agreement details).
-
-| Source | Description |
-|---|---|
-| Personal emails | Professional correspondence from group members |
-| Enron Email Dataset | Formal corporate email text |
-| App store reviews | Google Play and App Store user reviews |
-| WhatsApp messages | Informal everyday communication |
-
-All samples were independently labelled by at least two group members. Disagreements were resolved by majority vote. Final test set size: **400–500 samples**.
+**Note:** Raw data for these sources contains HTML noise, email signatures, and chat metadata, requiring a specialized cleaning pipeline.
 
 ---
 
