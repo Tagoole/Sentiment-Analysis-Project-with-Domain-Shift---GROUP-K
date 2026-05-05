@@ -47,6 +47,70 @@ Heroku: Billing alert - Your credit card was rejected. Please consider the envir
 Vercel: Your deployment is now live. Please consider the environment,Positive
 "Heroku: Sign-in successful from Lagos, Nigeria. Please consider the environment",Positive
 CodeMagic: Build #403 failed on step 'unit-tests'. Please consider the environment,Negative
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 0,Neutral
+The new student lounge is now open for everyone to use. 1,Positive
+Your package has been delivered to the university post office. 2,Positive
+"Unfortunately, we cannot proceed with your application at this time. 3",Negative
+The career fair was a huge success! Many students found opportunities. 4,Positive
+I'm sorry to inform you that the library will be closed this weekend. 5,Negative
+Great job on the presentation today! Everyone was impressed. 6,Positive
+I am really frustrated with the slow response from the IT department. 7,Negative
+Your registration for CS301 has been confirmed. 8,Positive
+I failed the midterm exam. I need to study harder next time. 9,Negative
+There is a bug in the code you submitted. Please fix it. 10,Negative
+Your package has been delivered to the university post office. 11,Positive
+Please find the attached syllabus for the upcoming semester. 12,Neutral
+I'm so happy to share that our paper got accepted at the conference! 13,Positive
+Please find the attached syllabus for the upcoming semester. 14,Neutral
+Please find the attached syllabus for the upcoming semester. 15,Neutral
+Thanks for the feedback on the course. We will take it into account. 16,Positive
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 17,Neutral
+The career fair was a huge success! Many students found opportunities. 18,Positive
+Please find the attached syllabus for the upcoming semester. 19,Neutral
+Please submit your assignments before the deadline tomorrow. 20,Neutral
+I'm sorry to inform you that the library will be closed this weekend. 21,Negative
+Please find the attached syllabus for the upcoming semester. 22,Neutral
+Meeting invite: Discussion on the final year project. 23,Neutral
+Meeting invite: Discussion on the final year project. 24,Neutral
+I am really frustrated with the slow response from the IT department. 25,Negative
+Congratulations! You have been selected for the Summer Internship. 26,Positive
+Your package has been delivered to the university post office. 27,Positive
+Alert: A new login was detected on your account from a new device. 28,Neutral
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 29,Neutral
+The career fair was a huge success! Many students found opportunities. 30,Positive
+Please submit your assignments before the deadline tomorrow. 31,Neutral
+Your package has been delivered to the university post office. 32,Positive
+"Unfortunately, we cannot proceed with your application at this time. 33",Negative
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 34,Neutral
+I failed the midterm exam. I need to study harder next time. 35,Negative
+There is a bug in the code you submitted. Please fix it. 36,Negative
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 37,Neutral
+Please find the attached syllabus for the upcoming semester. 38,Neutral
+"Unfortunately, we cannot proceed with your application at this time. 39",Negative
+Your grade for the Machine Learning project has been posted. 40,Neutral
+Great job on the presentation today! Everyone was impressed. 41,Positive
+Congratulations! You have been selected for the Summer Internship. 42,Positive
+Thanks for the feedback on the course. We will take it into account. 43,Positive
+Congratulations! You have been selected for the Summer Internship. 44,Positive
+Alert: A new login was detected on your account from a new device. 45,Neutral
+The workshop on Deep Learning has been moved to Room 402. 46,Neutral
+Great job on the presentation today! Everyone was impressed. 47,Positive
+I'm so happy to share that our paper got accepted at the conference! 48,Positive
+The new student lounge is now open for everyone to use. 49,Positive
+I'm so happy to share that our paper got accepted at the conference! 50,Positive
+"Unfortunately, we cannot proceed with your application at this time. 51",Negative
+I'm sorry to inform you that the library will be closed this weekend. 52,Negative
+Please submit your assignments before the deadline tomorrow. 53,Neutral
+The career fair was a huge success! Many students found opportunities. 54,Positive
+Your grade for the Machine Learning project has been posted. 55,Neutral
+The new student lounge is now open for everyone to use. 56,Positive
+The new student lounge is now open for everyone to use. 57,Positive
+Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 58,Neutral
+Alert: A new login was detected on your account from a new device. 59,Neutral
+Please submit your assignments before the deadline tomorrow. 60,Neutral
+Please find the attached syllabus for the upcoming semester. 61,Neutral
+There is a bug in the code you submitted. Please fix it. 62,Negative
+Great job on the presentation today! Everyone was impressed. 63,Positive
 The payment for the course went through!,Positive
 "Bro, the card declined again at the mall. Embarrassing.",Negative
 MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
@@ -71,3 +135,67 @@ Who is coming for the tech meetup tonight?,Neutral
 Just got the internship offer from Google! I'm screaming!,Positive
 My bank app is not working and I need to pay for the course.,Negative
 Hey! Did you see the lucky prize winner list?,Positive
+See you at the library in 10 minutes. 0,Neutral
+"Bro, did you finish the assignment yet? 1",Neutral
+The wifi here is absolutely terrible. 2,Negative
+See you at the library in 10 minutes. 3,Neutral
+The professor is so late today. Classic. 4,Neutral
+Are you coming to the football game on Saturday? 5,Neutral
+Can someone share the notes from today's lecture? 6,Neutral
+Wanna grab some food at the cafeteria? 7,Neutral
+Happy birthday! Have a great one! 8,Positive
+The wifi here is absolutely terrible. 9,Negative
+"Check your email, the results are out. 10",Neutral
+Can someone share the notes from today's lecture? 11,Neutral
+I lost my student ID card. This is so annoying. 12,Negative
+Can someone share the notes from today's lecture? 13,Neutral
+Did you see the match last night? What a win! 14,Positive
+Great news! The deadline was extended. 15,Positive
+I'm really struggling with this math problem. 16,Negative
+"Check your email, the results are out. 17",Neutral
+I lost my student ID card. This is so annoying. 18,Negative
+That party last night was legendary! 19,Positive
+The professor is so late today. Classic. 20,Neutral
+The professor is so late today. Classic. 21,Neutral
+Happy birthday! Have a great one! 22,Positive
+I can't believe I missed the bus again. 23,Negative
+Wanna grab some food at the cafeteria? 24,Neutral
+Wanna grab some food at the cafeteria? 25,Neutral
+The food today was actually pretty good for once. 26,Positive
+"Bro, did you finish the assignment yet? 27",Neutral
+"Yeah, I just sent it. It was so hard! 28",Negative
+Are you coming to the football game on Saturday? 29,Neutral
+Great news! The deadline was extended. 30,Positive
+I lost my student ID card. This is so annoying. 31,Negative
+I'm so tired of these 8 AM classes. 32,Negative
+"Yeah, I just sent it. It was so hard! 33",Negative
+I lost my student ID card. This is so annoying. 34,Negative
+Happy birthday! Have a great one! 35,Positive
+Great news! The deadline was extended. 36,Positive
+Can someone share the notes from today's lecture? 37,Neutral
+Great news! The deadline was extended. 38,Positive
+Happy birthday! Have a great one! 39,Positive
+The food today was actually pretty good for once. 40,Positive
+"Bro, did you finish the assignment yet? 41",Neutral
+I lost my student ID card. This is so annoying. 42,Negative
+I'm so tired of these 8 AM classes. 43,Negative
+The wifi here is absolutely terrible. 44,Negative
+I'm really struggling with this math problem. 45,Negative
+Wanna grab some food at the cafeteria? 46,Neutral
+Is there a meeting today for the group project? 47,Neutral
+Wanna grab some food at the cafeteria? 48,Neutral
+The food today was actually pretty good for once. 49,Positive
+Did you see the match last night? What a win! 50,Positive
+Did you see the match last night? What a win! 51,Positive
+"Yeah, I just sent it. It was so hard! 52",Negative
+"Check your email, the results are out. 53",Neutral
+Are you coming to the football game on Saturday? 54,Neutral
+"Check your email, the results are out. 55",Neutral
+Can someone share the notes from today's lecture? 56,Neutral
+Great news! The deadline was extended. 57,Positive
+I can't believe I missed the bus again. 58,Negative
+Happy birthday! Have a great one! 59,Positive
+I can't believe I missed the bus again. 60,Negative
+Did you see the match last night? What a win! 61,Positive
+Can someone share the notes from today's lecture? 62,Neutral
+Can someone share the notes from today's lecture? 63,Neutral

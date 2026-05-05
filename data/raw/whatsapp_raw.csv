@@ -299,3 +299,67 @@ WA_0296,+234-80-4977-68,14:46,--- Forwarded message --- MTN: Your data balance i
 WA_0297,+234-80-1114-59,14:37,??? Yo! The build on CodeMagic finally passed! Let's go! <br>,False,Personal,True,Positive
 WA_0298,+234-80-7423-29,16:10,--- Forwarded message --- Hey! Did you see the lucky prize winner list? ???,True,Personal,False,Positive
 WA_0299,+234-80-9141-24,16:23,<br> The payment for the course went through! !!!,True,Personal,False,Positive
+WA_0300,+234-80-3391-11,10:12,@user See you at the library in 10 minutes. 0,False,Personal,False,Neutral
+WA_0301,+234-80-3022-40,11:48,"@user Bro, did you finish the assignment yet? 1",True,Personal,False,Neutral
+WA_0302,+234-80-3613-83,03:00,!!! The wifi here is absolutely terrible. 2,False,Personal,False,Negative
+WA_0303,+234-80-8325-12,14:47,??? See you at the library in 10 minutes. 3,True,Personal,False,Neutral
+WA_0304,+234-80-8630-85,04:30,@user The professor is so late today. Classic. 4,False,Personal,False,Neutral
+WA_0305,+234-80-1533-65,13:53,??? Are you coming to the football game on Saturday? 5,False,Personal,True,Neutral
+WA_0306,+234-80-3123-74,00:23,!!! Can someone share the notes from today's lecture? 6,False,Personal,True,Neutral
+WA_0307,+234-80-4805-73,10:11,??? Wanna grab some food at the cafeteria? 7,False,Personal,True,Neutral
+WA_0308,+234-80-5171-30,23:19,??? Happy birthday! Have a great one! 8,True,Personal,False,Positive
+WA_0309,+234-80-1703-90,17:21,@user The wifi here is absolutely terrible. 9,False,Personal,True,Negative
+WA_0310,+234-80-1181-13,03:30,"??? Check your email, the results are out. 10",False,Personal,False,Neutral
+WA_0311,+234-80-9648-46,15:45,!!! Can someone share the notes from today's lecture? 11,False,Personal,True,Neutral
+WA_0312,+234-80-9204-14,19:54,@user I lost my student ID card. This is so annoying. 12,True,Personal,False,Negative
+WA_0313,+234-80-9360-78,18:20,??? Can someone share the notes from today's lecture? 13,False,Personal,True,Neutral
+WA_0314,+234-80-7217-77,08:05,@user Did you see the match last night? What a win! 14,False,Personal,False,Positive
+WA_0315,+234-80-6624-83,06:12,??? Great news! The deadline was extended. 15,False,Personal,True,Positive
+WA_0316,+234-80-6894-35,21:01,<br> I'm really struggling with this math problem. 16,False,Personal,True,Negative
+WA_0317,+234-80-7141-22,00:17,"??? Check your email, the results are out. 17",True,Personal,False,Neutral
+WA_0318,+234-80-1942-59,04:24,??? I lost my student ID card. This is so annoying. 18,True,Personal,True,Negative
+WA_0319,+234-80-1357-73,15:13,!!! That party last night was legendary! 19,False,Personal,False,Positive
+WA_0320,+234-80-6138-28,14:28,!!! The professor is so late today. Classic. 20,False,Personal,True,Neutral
+WA_0321,+234-80-8841-91,19:46,??? The professor is so late today. Classic. 21,True,Personal,True,Neutral
+WA_0322,+234-80-7908-95,22:36,<br> Happy birthday! Have a great one! 22,False,Personal,True,Positive
+WA_0323,+234-80-4687-97,14:39,!!! I can't believe I missed the bus again. 23,False,Personal,False,Negative
+WA_0324,+234-80-4994-28,00:09,??? Wanna grab some food at the cafeteria? 24,True,Personal,False,Neutral
+WA_0325,+234-80-1313-26,16:00,!!! Wanna grab some food at the cafeteria? 25,False,Personal,True,Neutral
+WA_0326,+234-80-6364-12,15:40,??? The food today was actually pretty good for once. 26,True,Personal,True,Positive
+WA_0327,+234-80-5578-41,02:01,"??? Bro, did you finish the assignment yet? 27",True,Personal,True,Neutral
+WA_0328,+234-80-2618-23,04:36,"<br> Yeah, I just sent it. It was so hard! 28",False,Personal,True,Negative
+WA_0329,+234-80-5501-48,03:04,!!! Are you coming to the football game on Saturday? 29,False,Personal,True,Neutral
+WA_0330,+234-80-8441-74,23:10,??? Great news! The deadline was extended. 30,True,Personal,False,Positive
+WA_0331,+234-80-8735-69,01:23,@user I lost my student ID card. This is so annoying. 31,False,Personal,True,Negative
+WA_0332,+234-80-8442-39,21:57,??? I'm so tired of these 8 AM classes. 32,True,Personal,False,Negative
+WA_0333,+234-80-7223-87,06:18,"<br> Yeah, I just sent it. It was so hard! 33",False,Personal,True,Negative
+WA_0334,+234-80-3280-31,16:04,!!! I lost my student ID card. This is so annoying. 34,False,Personal,False,Negative
+WA_0335,+234-80-8708-43,03:31,!!! Happy birthday! Have a great one! 35,False,Personal,False,Positive
+WA_0336,+234-80-4121-10,01:01,<br> Great news! The deadline was extended. 36,True,Personal,True,Positive
+WA_0337,+234-80-1961-52,03:50,!!! Can someone share the notes from today's lecture? 37,False,Personal,False,Neutral
+WA_0338,+234-80-9596-25,12:59,!!! Great news! The deadline was extended. 38,True,Personal,False,Positive
+WA_0339,+234-80-2776-63,09:47,<br> Happy birthday! Have a great one! 39,False,Personal,False,Positive
+WA_0340,+234-80-2943-54,21:05,!!! The food today was actually pretty good for once. 40,True,Personal,False,Positive
+WA_0341,+234-80-3050-80,02:03,"!!! Bro, did you finish the assignment yet? 41",True,Personal,False,Neutral
+WA_0342,+234-80-4583-44,00:14,<br> I lost my student ID card. This is so annoying. 42,False,Personal,True,Negative
+WA_0343,+234-80-5299-30,21:10,??? I'm so tired of these 8 AM classes. 43,False,Personal,True,Negative
+WA_0344,+234-80-1541-15,10:12,!!! The wifi here is absolutely terrible. 44,True,Personal,False,Negative
+WA_0345,+234-80-9143-62,21:56,@user I'm really struggling with this math problem. 45,True,Personal,True,Negative
+WA_0346,+234-80-3018-21,01:05,??? Wanna grab some food at the cafeteria? 46,False,Personal,False,Neutral
+WA_0347,+234-80-1614-31,07:09,!!! Is there a meeting today for the group project? 47,True,Personal,False,Neutral
+WA_0348,+234-80-2681-43,18:17,!!! Wanna grab some food at the cafeteria? 48,True,Personal,True,Neutral
+WA_0349,+234-80-5066-66,00:25,<br> The food today was actually pretty good for once. 49,False,Personal,False,Positive
+WA_0350,+234-80-5844-21,02:25,??? Did you see the match last night? What a win! 50,False,Personal,True,Positive
+WA_0351,+234-80-5282-38,20:47,!!! Did you see the match last night? What a win! 51,False,Personal,False,Positive
+WA_0352,+234-80-7218-72,00:33,"<br> Yeah, I just sent it. It was so hard! 52",False,Personal,True,Negative
+WA_0353,+234-80-3313-80,14:17,"??? Check your email, the results are out. 53",False,Personal,False,Neutral
+WA_0354,+234-80-8856-94,16:39,<br> Are you coming to the football game on Saturday? 54,False,Personal,True,Neutral
+WA_0355,+234-80-2350-12,13:45,"??? Check your email, the results are out. 55",True,Personal,True,Neutral
+WA_0356,+234-80-9818-89,18:07,<br> Can someone share the notes from today's lecture? 56,False,Personal,False,Neutral
+WA_0357,+234-80-5503-45,16:34,@user Great news! The deadline was extended. 57,True,Personal,True,Positive
+WA_0358,+234-80-8759-82,22:25,<br> I can't believe I missed the bus again. 58,True,Personal,True,Negative
+WA_0359,+234-80-8826-84,02:11,!!! Happy birthday! Have a great one! 59,False,Personal,True,Positive
+WA_0360,+234-80-1538-92,12:07,??? I can't believe I missed the bus again. 60,False,Personal,True,Negative
+WA_0361,+234-80-5496-66,13:49,@user Did you see the match last night? What a win! 61,True,Personal,False,Positive
+WA_0362,+234-80-5282-96,16:17,<br> Can someone share the notes from today's lecture? 62,True,Personal,False,Neutral
+WA_0363,+234-80-4019-44,07:54,@user Can someone share the notes from today's lecture? 63,True,Personal,False,Neutral
