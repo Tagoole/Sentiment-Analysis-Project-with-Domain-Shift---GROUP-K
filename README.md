@@ -75,7 +75,7 @@ Group-K-Machine-Learning/
 │       └── student_test_dataset.csv         ← Curated cross-domain test set
 │
 ├── notebooks/
-│   ├── 00_data_cleaning.ipynb              ← Full cleaning & balancing pipeline
+│   ├── 00_data_cleaning.ipynb              ← Full cleaning & balancing workflow
 │   └── 05_bert_distillbert.ipynb           ← Advanced Transformer Fine-Tuning & SHAP
 │
 └── report/

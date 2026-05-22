@@ -1,52 +1,29 @@
 text,sentiment
-GitHub: Security alert - A new SSH key was added. Please consider the environment,Neutral
-Vultr: Monthly invoice is ready for review.,Neutral
+Security alert - A new SSH key was added.,Neutral
+Monthly invoice is ready for review.,Neutral
 Coursera: Financial Aid for 'Machine Learning' Approved!,Positive
-Udemy: Registration Successful! Welcome to 'Deep Learning 101' Please consider the environment,Positive
+Registration Successful! Welcome to 'Deep Learning 101',Positive
 You've won a $1000 prize! Claim your reward now!,Neutral
-CodeMagic: Build #403 failed on step 'unit-tests'.,Negative
-Vercel: Deployment to production failed. Check logs.,Negative
-Amazon: Your order has been delivered.,Positive
+Build #403 failed on step 'unit-tests'.,Negative
+Deployment to production failed. Check logs.,Negative
+Your order has been delivered.,Positive
 Your Udemy password has been successfully reset.,Positive
-GitHub: Security alert - A new SSH key was added.,Neutral
-Udemy: Registration Successful! Welcome to 'Deep Learning 101',Positive
-LinkedIn: 5 people viewed your profile this week. Please consider the environment,Neutral
-Railway: Payment failed for the Developer Plan. Please consider the environment,Negative
-GitHub: Build passed for repo 'Final-Project-K'.,Positive
-Railway: Deployment Successful for project 'my-api-v1',Positive
-Railway: Payment failed for the Developer Plan.,Negative
-Netlify: Deployment of 'Portfolio-Site' failed. Please consider the environment,Negative
-Heroku: Billing alert - Your credit card was rejected.,Negative
-Vercel: Your deployment is now live.,Positive
-Netlify: Deployment of 'Portfolio-Site' failed.,Negative
-CodeMagic: Build #402 successful for 'StudentApp'.,Positive
-Welcome to Heroku! Verify your account. Please consider the environment,Positive
+5 people viewed your profile this week.,Neutral
+Payment failed for the Developer Plan.,Negative
+Build passed for repo 'Final-Project-K'.,Positive
+Deployment Successful for project 'my-api-v1',Positive
+Deployment of 'Portfolio-Site' failed.,Negative
+Billing alert - Your credit card was rejected.,Negative
+Your deployment is now live.,Positive
+Build #402 successful for 'StudentApp'.,Positive
+Welcome to Heroku! Verify your account.,Positive
 Scholarship Committee: We regret to inform you that you were not selected.,Negative
 SERVICE TERMINATION NOTICE: Your account has been suspended.,Negative
-Welcome to Heroku! Verify your account.,Positive
-Scholarship Committee: We regret to inform you that you were not selected. Please consider the environment,Negative
-Railway: Deployment Successful for project 'my-api-v1' Please consider the environment,Positive
-"Heroku: Sign-in successful from Lagos, Nigeria.",Positive
-Your Udemy password has been successfully reset. Please consider the environment,Positive
+"Sign-in successful from Lagos, Nigeria.",Positive
 "Paystack: Transaction successful - NGN 5,000 to Udemy.",Positive
-DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space. Please consider the environment,Negative
 DigitalOcean: Your droplet 'Ubuntu-Srv' is running low on disk space.,Negative
-CodeMagic: Build #402 successful for 'StudentApp'. Please consider the environment,Positive
 Alert: Your Mastercard ending in 4421 was declined for Udemy.,Negative
-Heroku | Sign-up failed - Verification email expired. Please consider the environment,Negative
-Alert: Your Mastercard ending in 4421 was declined for Udemy. Please consider the environment,Negative
-Vultr: Monthly invoice is ready for review. Please consider the environment,Neutral
 Heroku | Sign-up failed - Verification email expired.,Negative
-"Paystack: Transaction successful - NGN 5,000 to Udemy. Please consider the environment",Positive
-LinkedIn: 5 people viewed your profile this week.,Neutral
-Vercel: Deployment to production failed. Check logs. Please consider the environment,Negative
-You've won a $1000 prize! Claim your reward now! Please consider the environment,Neutral
-Amazon: Your order has been delivered. Please consider the environment,Positive
-GitHub: Build passed for repo 'Final-Project-K'. Please consider the environment,Positive
-Heroku: Billing alert - Your credit card was rejected. Please consider the environment,Negative
-Vercel: Your deployment is now live. Please consider the environment,Positive
-"Heroku: Sign-in successful from Lagos, Nigeria. Please consider the environment",Positive
-CodeMagic: Build #403 failed on step 'unit-tests'. Please consider the environment,Negative
 Reminder: The student union meeting is scheduled for tomorrow at 5 PM. 0,Neutral
 The new student lounge is now open for everyone to use. 1,Positive
 Your package has been delivered to the university post office. 2,Positive
@@ -113,7 +90,7 @@ There is a bug in the code you submitted. Please fix it. 62,Negative
 Great job on the presentation today! Everyone was impressed. 63,Positive
 The payment for the course went through!,Positive
 "Bro, the card declined again at the mall. Embarrassing.",Negative
-MTN: Subscription of 10GB Data successful. Balance: 12GB.,Positive
+Subscription of 10GB Data successful. Balance: 12GB.,Positive
 The wifi in the hostel is down again. I hate this place.,Negative
 I'm breaking up with this internship. No pay.,Negative
 Heartbreak is real... she just sent the 'we need to talk' text.,Negative
@@ -121,7 +98,7 @@ The lecturer just canceled the 8am class! Praise God!,Positive
 Yo! The build on CodeMagic finally passed! Let's go!,Positive
 Final project build failed... only 2 hours left.,Negative
 "Railway is so much better, deployment was 100% successful.",Positive
-MTN: Your data balance is below 100MB.,Negative
+Your data balance is below 100MB.,Negative
 CodeMagic is taking forever... 20 mins and still running.,Neutral
 The deployment on Vercel failed again. I'm tired.,Negative
 "Heroku is acting up again, sign in successful but no app.",Negative
