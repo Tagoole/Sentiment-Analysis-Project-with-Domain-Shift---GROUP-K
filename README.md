@@ -24,7 +24,7 @@
 
 This project investigates **cross-domain sentiment generalization** by building a unified sentiment dataset and evaluating performance on unseen, student-centric data from Gmail and WhatsApp.
 
-The repository includes a comprehensive preprocessing pipeline and a collection of models ranging from classical algorithms to modern transformers.
+The repository includes a comprehensive preprocessing workflow and a collection of models ranging from classical algorithms to modern transformers.
 
 ---
 
