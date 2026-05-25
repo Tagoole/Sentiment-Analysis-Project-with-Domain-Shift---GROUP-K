@@ -1,34 +1,13 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# Ivy's Sentiment Analysis Project\n",
-    "## SVM and Bidirectional LSTM (Bi-LSTM)\n",
-    "\n",
-    "In this project, I am comparing two very different types of models:\n",
-    "1. **Support Vector Machine (SVM):** A traditional machine learning model that looks for a 'boundary' between different sentiments.\n",
-    "2. **Bidirectional LSTM (Bi-LSTM):** A deep learning model that reads sentences both forward and backward to understand the full context.\n",
-    "\n",
-    "I'll be training them on social media data and then testing them on real messages from Gmail and WhatsApp to see if they can understand student life!"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Step 1: Getting the Tools Ready\n",
-    "I'm importing pandas for data, sklearn for SVM, and TensorFlow for the Bi-LSTM model."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "9de665ac",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+import json
+import os
+
+notebook_path = 'notebooks/IVY_SVM_BiLSTM.ipynb'
+
+with open(notebook_path, 'r') as f:
+    nb = json.load(f)
+
+# --- Step 1: Update Imports (Cell 2) ---
+nb['cells'][2]['source'] = [
     "import os\n",
     "import re\n",
     "import string\n",
@@ -108,80 +87,10 @@
     "            coefs = np.asarray(values[1:], dtype='float32')\n",
     "            embeddings_lookup[word] = coefs\n",
     "    print(f\"Loaded {len(embeddings_lookup):,} word vectors.\")"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "fa1b9688",
-   "metadata": {},
-   "source": [
-    "### Step 2: Loading the Data\n",
-    "I'll load the training data and our special test set that contains the real Gmail and WhatsApp messages."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e49e247f",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Loading from the project folders\n",
-    "train_df = pd.read_csv('../data/processed/processed_training_dataset.csv')\n",
-    "val_df = pd.read_csv('../data/processed/processed_validation_datset.csv')\n",
-    "test_df = pd.read_csv('../data/processed/student_test_dataset.csv')\n",
-    "print(f\"Training set size: {len(train_df)}\")\n",
-    "print(f\"Student test set size: {len(test_df)}\")\n",
-    "\n",
-    "train_df.head(3)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "1ca68bea",
-   "metadata": {},
-   "source": [
-    "## SECTION 1: EDA (Ivy - SVM & Bi-LSTM)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "8b1ec353",
-   "metadata": {},
-   "source": [
-    "### Step 3: Visualizing Sentiment Distribution\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "2bcc8a01",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "plt.figure(figsize=(8, 5))\n",
-    "sns.countplot(x='sentiment', data=train_df, palette='viridis')\n",
-    "plt.title('How many messages for each feeling?')\n",
-    "plt.show()"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "21d71c81",
-   "metadata": {},
-   "source": [
-    "# SECTION 2: PREPROCESSING\n",
-    "### Step 4: Surgical Cleaning the text\n",
-    "Student communications (especially Gmail and WhatsApp) are full of technical noise like 'MTN:', 'GitHub:', and automated footers. I will use a 'Surgical Cleaning' approach to remove this noise and map student slang to proper English. This helps the model focus on the actual sentiment."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "54864357",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 4: Surgical Cleaning & Feature Extraction (Cell 9) ---
+nb['cells'][9]['source'] = [
     "# --- Slang mapping including WhatsApp shortcuts ---\n",
     "slang_dictionary = {\n",
     "    r'\\bu\\b': 'you', r'\\bpls\\b': 'please', r'\\bplz\\b': 'please',\n",
@@ -259,58 +168,10 @@
     "test_df['clean']  = test_df['text'].apply(surgical_cleaner)\n",
     "\n",
     "print(\"Surgical cleaning complete!\")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "5c961800",
-   "metadata": {},
-   "source": [
-    "### Step 5: Encoding Labels\n",
-    "I will map the sentiments to three clean categories: Negative (0), Neutral (1), and Positive (2). This is important because our test set has a lot of Neutral messages that we don't want to miss!"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e4984f8a",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Mapping dictionary for 3-class sentiment\n",
-    "label_mapping = {\"Negative\": 0, \"Neutral\": 1, \"Positive\": 2}\n",
-    "\n",
-    "train_df['label'] = train_df['sentiment'].map(label_mapping)\n",
-    "val_df['label'] = val_df['sentiment'].map(label_mapping)\n",
-    "test_df['label'] = test_df['sentiment'].map(label_mapping)\n",
-    "\n",
-    "# Drop any rows that couldn't be mapped (like 'Irrelevant' labels)\n",
-    "train_df = train_df.dropna(subset=['label'])\n",
-    "val_df = val_df.dropna(subset=['label'])\n",
-    "test_df = test_df.dropna(subset=['label'])\n",
-    "\n",
-    "y_train = train_df['label'].astype(int).values\n",
-    "y_val = val_df['label'].astype(int).values\n",
-    "y_test = test_df['label'].astype(int).values\n",
-    "\n",
-    "print(\"Labels mapped successfully: Negative=0, Neutral=1, Positive=2\")"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "9da953ef",
-   "metadata": {},
-   "source": [
-    "## SECTION 3: MODEL TRANSFORMATIONS (Ivy - SVM & Bi-LSTM)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "ac3abf42",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 5: Preparing Features for SVM (Cell 13) ---
+nb['cells'][13]['source'] = [
     "# --- TF-IDF Weighted GloVe Vector Pooling ---\n",
     "def compute_tfidf_weighted_glove(texts, tfidf_vec, glove_dict, dim=100):\n",
     "    tfidf_matrix = tfidf_vec.transform(texts).toarray()\n",
@@ -380,33 +241,11 @@
     "X_val_svm   = np.hstack([X_val_glove,   vader_val,   X_val_meta])\n",
     "X_test_svm  = np.hstack([X_test_glove,  vader_test,  X_test_meta])\n",
     "\n",
-    "print(f\"SVM feature matrix shape \u2014 Train: {X_train_svm.shape}, Test: {X_test_svm.shape}\")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "81b1ac2b",
-   "metadata": {},
-   "source": [
-    "## SECTION 4: TRAINING AND EVALUATION (Ivy - SVM & Bi-LSTM)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "2be8f9b8",
-   "metadata": {},
-   "source": [
-    "### Step 5.1: Tuning SVM Hyperparameters\n",
-    "I will test different values for the 'C' parameter (regularization) to see which one works best on our validation set. This is like trying on different sizes of shoes to find the best fit!"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "d2be54db",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+    "print(f\"SVM feature matrix shape — Train: {X_train_svm.shape}, Test: {X_test_svm.shape}\")\n"
+]
+
+# --- Step 5.1 & 6: SVM Training and Tuning (Cell 16 & 18) ---
+nb['cells'][16]['source'] = [
     "best_c = 1.0\n",
     "best_f1 = 0\n",
     "\n",
@@ -424,51 +263,22 @@
     "        best_c = c_val\n",
     "\n",
     "print(f\"\\nSuccess! The best C value is {best_c} with validation F1-score of {best_f1:.4f}\")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "476785ba",
-   "metadata": {},
-   "source": [
-    "### Step 6: Final Support Vector Machine (SVM) Training\n",
-    "I will use the best 'C' value I found above to train my final SVM model."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "51189631",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+nb['cells'][18]['source'] = [
     "# Train and evaluate final optimized SVM\n",
     "svm_model = SVC(kernel='rbf', C=best_c, class_weight='balanced', random_state=42)\n",
     "svm_model.fit(X_train_svm, y_train)\n",
     "\n",
     "svm_val_preds = svm_model.predict(X_val_svm)\n",
     "print(\"\\n\" + \"=\"*50)\n",
-    "print(\"  OPTIMIZED SVM \u2014 Validation Report\")\n",
+    "print(\"  OPTIMIZED SVM — Validation Report\")\n",
     "print(\"=\"*50)\n",
     "print(classification_report(y_val, svm_val_preds, target_names=label_mapping.keys()))\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "e082a2ab",
-   "metadata": {},
-   "source": [
-    "### Step 7: Bidirectional LSTM (Bi-LSTM)\n",
-    "Now for the deep learning part. I'll tokenize the sentences and pad them to a length of 100 words. This is a bit more complex than SVM but usually more powerful!"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "7a0460a4",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 7: Preparing Sequence & GloVe Matrix for Bi-LSTM (Cell 20) ---
+nb['cells'][20]['source'] = [
     "MAX_NB_WORDS = 20000\n",
     "MAX_LEN = 150  # increased from 100 to capture complete email context\n",
     "\n",
@@ -490,24 +300,10 @@
     "            matched += 1\n",
     "\n",
     "print(f\"GloVe Coverage: {matched:,} / {MAX_NB_WORDS:,} vocabulary terms matched.\")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "f0bcdda7",
-   "metadata": {},
-   "source": [
-    "### Step 7.1: Tuning Bi-LSTM Parameters\n",
-    "Deep learning models have many knobs to turn. We will test two different learning rates to see which one makes our model learn better from the validation set."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "3470a523",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 7.1 & 8: Dual-Input Bi-LSTM Model Architecture & Tuning (Cell 22 & 24) ---
+nb['cells'][22]['source'] = [
     "# --- Build Upgraded Dual-Input Bi-LSTM ---\n",
     "\n",
     "def build_dual_input_bilstm(learning_rate=1e-3):\n",
@@ -575,24 +371,9 @@
     "        best_lr = lr\n",
     "\n",
     "print(f\"\\nSuccess! Chosen Best Learning Rate: {best_lr} (Val Accuracy: {best_val_acc:.4f})\")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "430faff9",
-   "metadata": {},
-   "source": [
-    "### Step 8: Training the Final Bi-LSTM\n",
-    "I'll train for 5 epochs with our best learning rate found in the experiment above."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "bd2852fd",
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+nb['cells'][24]['source'] = [
     "# Train final optimized model for 8 epochs with early stopping\n",
     "final_model = build_dual_input_bilstm(learning_rate=best_lr)\n",
     "early_stop = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)\n",
@@ -606,22 +387,10 @@
     "    callbacks=[early_stop],\n",
     "    verbose=1\n",
     ")\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Step 9: Testing on Real Student Data\n",
-    "Now I will test both models on the real Gmail and WhatsApp data. Let's see how they perform!"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 9: Final Stress Evaluation (Cell 26) ---
+nb['cells'][26]['source'] = [
     "# SVM Test Predictions\n",
     "svm_test_preds = svm_model.predict(X_test_svm)\n",
     "svm_test_acc = accuracy_score(y_test, svm_test_preds)\n",
@@ -637,25 +406,13 @@
     "print(\"=\"*50)\n",
     "\n",
     "print(\"\\n\" + \"=\"*50)\n",
-    "print(\"  OPTIMIZED BI-LSTM \u2014 Cross-Domain Test Report (Gmail + WhatsApp)\")\n",
+    "print(\"  OPTIMIZED BI-LSTM — Cross-Domain Test Report (Gmail + WhatsApp)\")\n",
     "print(\"=\"*50)\n",
     "print(classification_report(y_test, lstm_test_preds, target_names=label_mapping.keys()))\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Step 10: Confusion Matrix\n",
-    "Let's see where our best model (Bi-LSTM) made mistakes in the student data."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
+]
+
+# --- Step 10: Confusion Matrix (Cell 28) ---
+nb['cells'][28]['source'] = [
     "cm = confusion_matrix(y_test, lstm_test_preds)\n",
     "plt.figure(figsize=(6, 5))\n",
     "sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', \n",
@@ -664,28 +421,7 @@
     "plt.ylabel('True Label')\n",
     "plt.title('Bi-LSTM Mistakes on Student Data')\n",
     "plt.show()\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.10.0"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+]
+
+with open(notebook_path, 'w') as f:
+    json.dump(nb, f, indent=1)
