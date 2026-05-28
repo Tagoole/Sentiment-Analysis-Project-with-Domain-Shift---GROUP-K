@@ -1,208 +1,63 @@
-# Evaluating Sentiment Model Generalization: From Social Media to Student Communications
-### Assessing Performance on Real-World Gmail and WhatsApp Data
+# Cross-Domain Sentiment Analysis: Mitigating Domain Shift
 
-> *Can a model trained on social media understand how people feel in emails and private messages? This project evaluates model generalization to real-world student data.*
+## 1. Project Overview
+This project tackles **Domain Shift** in Sentiment Analysis. Sentiment models trained heavily on one type of text (e.g., formal reviews or short tweets) often fail when tested on drastically different text (e.g., informal WhatsApp chats, or structured emails) because the vocabulary, slang, length, and emotional expressions change drastically between domains.
 
----
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Research Motivation](#research-motivation)
-3. [Repository Structure](#repository-structure)
-4. [Datasets](#datasets)
-5. [Methodology](#methodology)
-6. [Algorithms](#algorithms)
-7. [Evaluation Strategy](#evaluation-strategy)
-8. [Team](#team)
-9. [Requirements](#requirements)
-10. [How to Run](#how-to-run)
+### Goal
+Our goal is to build an ensemble text classification pipeline that is **resilient to domain shift**. The pipeline dynamically learns how to classify text into `Positive`, `Neutral`, or `Negative` sentiment categories across various data sources including base Twitter datasets, and real-world WhatsApp messages and Gmail threads.
 
 ---
 
-## Project Overview
+## 2. Project Architecture and Workflow
+The project is built entirely within the `GROUP- K -Sentiment-Analysis-Project-With-Domain-Shift.ipynb` notebook and follows this structured machine-learning lifecycle:
 
-This project investigates **cross-domain sentiment generalization** by building a unified sentiment dataset and evaluating performance on unseen, student-centric data from Gmail and WhatsApp.
+### A. Data Gathering & Integration
+We merged multiple source datasets ranging from formal to informal structures into a singular dataframe, retaining the specific raw text and mapping sentiment indicators to standard numeric mappings.
+- **Training Corpus (The "Source" Domain):** 3 independent Twitter sentiment datasets capturing general internet colloquialisms and basic reactions.
+- **Testing Corpus (The "Target" Domain):** Brand new, unseen text from WhatsApp and Gmail simulating real-world inference targets with long-form sequences and new structural habits.
 
-The repository includes a comprehensive preprocessing workflow and a collection of models ranging from classical algorithms to modern transformers.
+### B. Cleaning & Preprocessing Workflow
+The internet is messy. We built a comprehensive text-cleaning pipeline to standardise the data:
+- Converting to lowercase, removing non-ASCII characters, HTML tags, and URLs.
+- Replacing repeated punctuation (e.g. "???" or "!!!!") and standardizing elongated words (e.g. "sooooo" -> "so").
+- Normalising numbers, usernames (`@user`), and removing excess whitespace.
+- Extracting powerful metadata prior to cleaning (character count, word count, total capital letters, special character counts).
 
----
+### C. Class Balancing & Data Subsampling
+Sentiment datasets naturally skew towards positive and negative extremes, neglecting neutrals.
+- We perform stratified subsampling to establish perfectly balanced 3-way classes for our final training set (e.g., preserving equal parts positive, neutral, negative).
+- This ensures models don't take "shortcuts" by guessing the majority class and prevents skewed bias towards large internet datasets.
 
-## Research Motivation
+### D. Multi-Model 5-Fold Cross Validation
+Because a single model might have blind spots on specific domains, we orchestrated an out-of-fold (OOF) 5-fold cross-validation engine encompassing 10 highly distinct models.
+- **Traditional Baseline Models (TF-IDF):** Naive Bayes & Logistic Regression.
+- **Classical ML Models (TF-IDF):** Support Vector Machine (LinearSVC) & Random Forest.
+- **Feed-Forward Deep Learning (TF-IDF):** Multi-Layer Perceptron (MLP).
+- **Sequential/Temporal Deep Learning (Embeddings):** CNN (1D text convolutions), LSTM, Bi-LSTM, and Bi-GRU to track text sequentially forward and backward.
+- **Heavyweight Transformer:** DistilBERT, fine-tuned to capture contextual emotional cues across varying text.
 
-Sentiment analysis has been widely studied. This project focuses on the evaluation design: testing models on data that is entirely different from the training distribution. While most models perform well on similar data, their performance often drops when encountering real-world communication styles like formal emails or informal chats.
+### E. XGBoost Meta-Ensemble
+Instead of blindly averaging model results or picking the single highest accuracy, we implement **Model Stacking**:
+We concatenate the Out-Of-Fold probabilities of all 10 models alongside the meta-features (word counts, punctuation density, etc.) into a "meta-dataset." By training an **XGBoost Classifier** on top of this, our model autonomously learns *which* base models to trust under *which* conditions.
 
-By manually creating and labeling a test set from Gmail and WhatsApp, we provide a more realistic assessment of how these models would perform in practice for students.
-
----
-
-## Repository Structure
-
-```
-Group-K-Machine-Learning/
-│
-├── README.md                        ← You are here
-│
-├── Final_Sentiment_Analysis_Workflow.ipynb ← Comprehensive modeling & evaluation
-│
-├── data/
-│   ├── raw/
-│   │   ├── sentimentdataset.csv          ← Kaggle: Social Media Sentiment Dataset
-│   │   ├── Tweets.csv                    ← Kaggle: Twitter US Airline Sentiment
-│   │   ├── twitterdataset.csv            ← Kaggle: Twitter Entity Sentiment Analysis
-│   │   ├── gmail_raw.csv                 ← Real-world: Exported Student Gmail Data
-│   │   └── whatsapp_raw.csv              ← Real-world: Exported Student WhatsApp Data
-│   └── processed/
-│       ├── processed_training_dataset.csv   ← 70% stratified training split
-│       ├── processed_validation_datset.csv  ← 30% stratified validation split
-│       └── student_test_dataset.csv         ← Curated cross-domain test set
-│
-├── notebooks/
-│   ├── 00_data_cleaning.ipynb              ← Cleaning & balancing workflow
-│   └── 05_bert_distillbert.ipynb           ← Transformer Fine-Tuning & SHAP
-│
-└── report/
-    └── Group_K_Report.pdf           ← Final written report
-```
+### F. Explainability (SHAP & LIME)
+Black-box AI isn't helpful without knowing *why*.
+- **SHAP (SHapley Additive exPlanations):** Validates our meta-features, visualising exactly how much "character count" or "DistilBERT confidence" influenced the XGBoost ensembler globally.
+- **LIME (Local Interpretable Model-Agnostic Explanations):** Used locally to break down specific text strings so that we can see exactly which words swung the sentiment scores.
 
 ---
 
-## Datasets
-
-### Training Data (merged)
-
-| Dataset | Source | Labels |
-|---|---|---|
-| Social Media Sentiment | [Kaggle – kashishparmar02](https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset) | Multiple emotions mapped to 3 classes |
-| Twitter US Airline Sentiment | [Kaggle – Crowdflower](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | positive / negative / neutral |
-| Twitter Entity Sentiment Analysis | [Kaggle – jp797498e](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) | positive / negative / neutral (+ other labels filtered during normalisation) |
-
-After cleaning, label normalisation, deduplication, and balancing, the final combined dataset is split into `processed_training_dataset.csv` and `processed_validation_datset.csv`.
-
-### Custom Test Set (Real-World Evaluation)
-
-To evaluate cross-domain generalization, we manually assembled a unique test set from sources outside the training distribution.
-
-| Source | Description | Size |
-|---|---|---|
-| **Gmail Exports** | Professional & academic correspondence (Scholarships, Admissions, Newsletters) | 300 samples |
-| **WhatsApp Chats** | Informal everyday communication (Social groups, personal messages) | 300 samples |
+## 3. Libraries & Requirements
+- **Data Manipulation:** `pandas`, `numpy`
+- **Machine Learning / NLP:** `scikit-learn`
+- **Deep Learning:** `tensorflow`, `torch`
+- **Transformers:** `transformers` (HuggingFace)
+- **Ensemble:** `xgboost`
+- **Explainability:** `shap`, `lime`
+- **Visualisation:** `matplotlib`, `seaborn`
 
 ---
 
-## Methodology
-
-```
-Raw Data (3 datasets)
-        ↓
-Data Cleaning & EDA             [notebooks/00_data_cleaning.ipynb]
-• Load 3 raw datasets
-• Standardise to text + sentiment schema
-• Normalise sentiment labels to Positive/Neutral/Negative
-• Remove duplicates and balance classes
-        ↓
-Combined balanced dataset
-        ↓
-Stratified split (70/30)
-        ↓
-processed_training_dataset.csv + processed_validation_datset.csv
-```
-
----
-
-## Algorithms
-
-We implement ten algorithms spanning three generations of NLP approaches.
-
-### Classical Machine Learning
-
-| Algorithm | Trained By | Key Characteristic |
-|---|---|---|
-| **Naive Bayes** | Larry | Probabilistic; fast; strong baseline |
-| **Logistic Regression** | Ritah | Linear; interpretable; efficient |
-| **Support Vector Machine (SVM)** | Ivy | Finds optimal decision boundary |
-| **Random Forest** | Julianah | Ensemble of decision trees |
-
-### Deep Learning
-
-| Algorithm | Trained By | Key Characteristic |
-|---|---|---|
-| **TextCNN** | Larry | Captures local n-gram patterns |
-| **LSTM** | Ritah | Handles long-range dependencies |
-| **Bidirectional LSTM** | Ivy | Dual-direction context modeling |
-| **GRU** | Julianah | Efficient recurrent modeling |
-
-### Transformer Models (Pre-trained)
-
-These models leverage **transfer learning** and represent modern transformer-based architectures.
-
-| Algorithm | Trained By | Key Characteristic |
-|---|---|---|
-| **BERT** | David | Bidirectional transformer using self-attention |
-| **DistilBERT** | David | Compressed and efficient version of BERT |
-
-### Ensemble
-
-The final notebook combines models using **weighted voting** based on validation performance.
-
----
-
-## Evaluation Strategy
-
-Each model is evaluated on two separate test sets:
-
-**1. In-domain test split** — a held-out portion of the training data.
-**2. Cross-domain test set** — our custom test set from Gmail and WhatsApp.
-
-Metrics reported for every model: Accuracy, Precision, Recall, and F1 Score.
-
----
-
-## Team
-
-| Name | Role | Algorithms |
-|---|---|---|
-| **David** | Modelling | BERT, DistilBERT |
-| **Larry** | Modelling | Naive Bayes, TextCNN |
-| **Ritah** | Modelling | Logistic Regression, LSTM |
-| **Ivy** | Modelling | SVM, Bidirectional LSTM |
-| **Julianah** | Modelling | Random Forest, GRU |
-
----
-
-## Requirements
-
-```
-Python 3.9+
-pandas, numpy, scikit-learn, matplotlib, seaborn, tensorflow, transformers, torch
-```
-
-Install all dependencies:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn tensorflow transformers torch
-```
-
----
-
-## How to Run
-
-**Step 1 — Clone the repository**
-
-```bash
-git clone https://github.com/your-username/Group-K-Machine-Learning.git
-cd Group-K-Machine-Learning
-```
-
-**Step 2 — Run data cleaning**
-
-Run `notebooks/00_data_cleaning.ipynb` to produce the processed datasets.
-
-**Step 3 — Run modeling and evaluation**
-
-Run `Final_Sentiment_Analysis_Workflow.ipynb` to train models and evaluate performance.
-
----
-
-*Group K — Makerere University*
-*Machine Learning Course — 2026*
+## 4. How to Run
+Ensure all libraries above are installed.
+Open and run `GROUP- K -Sentiment-Analysis-Project-With-Domain-Shift.ipynb` sequentially from top to bottom.
